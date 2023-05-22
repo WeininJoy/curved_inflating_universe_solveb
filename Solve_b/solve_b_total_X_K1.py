@@ -1,4 +1,5 @@
 ##### Goal of this code: solve the ODE of X (=b/a) to get b (the code may be more stable).
+#####   Solve both A and B
 
 import numpy as np
 import matplotlib.pyplot as plt

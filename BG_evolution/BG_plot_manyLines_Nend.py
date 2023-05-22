@@ -1,4 +1,8 @@
 ##### Goal of this code: Plot the result of BG variables with different K, N_0 and sigma
+##### Note: we can calculate sigma and phi_0 by N_0 (As, N_end are constant), so N_0 is the only initial value
+##### Note: sigma would scale all BG variables (eq 72 in [2205.07374]). We calculate in 'before scaling'
+#####       , and then transform to 'after scaling' to plot the result.
+
 
 import numpy as np
 import math

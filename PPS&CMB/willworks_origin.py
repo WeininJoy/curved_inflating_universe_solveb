@@ -1,3 +1,6 @@
+######## Goal: generate PPS&CMB based on Mary's paper [2211.17248]
+######## Given by Will Handley in 2023/2
+
 import matplotlib.pyplot as plt
 from matplotlib import gridspec
 from matplotlib import patches

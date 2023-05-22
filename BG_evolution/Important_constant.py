@@ -1,4 +1,4 @@
-##### Goal of this code: some cosmological constants used in these codes
+##### Goal of this code: important cosmological constants used in these codes
 
 from astropy import units as u
 from astropy.constants import c

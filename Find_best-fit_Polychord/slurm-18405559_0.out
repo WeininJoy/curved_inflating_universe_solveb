@@ -1,0 +1,3361 @@
+/rds/user/wnd22/hpc-work/env_/bin/python
+Changed directory to /home/wnd22/rds/hpc-work/Will_solve_b/Polychord_solveb.
+
+JobID: 18405559
+======
+Time: Wed Apr 26 11:04:31 BST 2023
+Running on master node: cpu-p-40
+Current directory: /home/wnd22/rds/hpc-work/Will_solve_b/Polychord_solveb
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "lzh_TW",
+	LC_ADDRESS = "lzh_TW",
+	LC_MONETARY = "lzh_TW",
+	LC_NUMERIC = "lzh_TW",
+	LC_TELEPHONE = "lzh_TW",
+	LC_IDENTIFICATION = "lzh_TW",
+	LC_MEASUREMENT = "lzh_TW",
+	LC_TIME = "lzh_TW",
+	LC_NAME = "lzh_TW",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+Nodes allocated:
+================
+cpu-p-40 cpu-p-41 cpu-p-42
+
+numtasks=20, numnodes=3, mpi_tasks_per_node=7 (OMP_NUM_THREADS=8)
+
+Executing command:
+==================
+mpirun -ppn 7 -np 21 python Find_bestfit_params_polychord.py 
+
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+[0] MPI startup(): I_MPI_OFA_TRANSLATION_CACHE variable has been removed from the product, its value is ignored
+
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+----
+clik version plc_3.1
+  smica
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+clik version plc_3.1
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+----
+clik version plc_3.1
+  simall simall_EE_BB_TE
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood '/home/wnd22/rds/hpc-work/clik_installs/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+
+PolyChord: Next Generation Nested Sampling
+copyright: Will Handley, Mike Hobson & Anthony Lasenby
+  version: 1.20.2
+  release: 1st June 2021
+    email: wh260@mrao.cam.ac.uk
+
+Run Settings
+nlive    :      20
+nDims    :       5
+nDerived :       0
+Doing Clustering
+Synchronous parallelisation
+Generating equally weighted posteriors
+Generating weighted posteriors
+Clustering on posteriors
+Writing a resume file to chains/inflation.resume
+
+generating live points
+
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+
+all live points generated
+
+Speed  1 =  0.486E+02 seconds
+number of repeats:           25
+started sampling
+
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 15000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 20000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 15000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 20000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 15000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 20000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 15000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 20000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 25000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages/classy.cpython-38-x86_64-linux-gnu.so
+['/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages', '/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages/class_public', '/rds/user/wnd22/hpc-work/Will_solve_b/Polychord_solveb', '/usr/local/software/master/python/3.8/lib/python38.zip', '/usr/local/software/master/python/3.8/lib/python3.8', '/usr/local/software/master/python/3.8/lib/python3.8/lib-dynload', '/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages', '/home/wnd22/rds/hpc-work/clik_installs/code/planck/code/plc_3.0/plc-3.1/lib/python/site-packages', '/home/wnd22/rds/hpc-work/clik_installs/code/planck/code/plc_3.0/plc-3.1/lib/python/site-packages']
+chi_eff_sq=6023.639793176744
+chi_eff_sq=477819.88165914017
+chi_eff_sq=153774.6319286876
+chi_eff_sq=52741.96278695284
+CosmoComputationError
+chi_eff_sq=90130.71638983516
+chi_eff_sq=69560.73138232985
+chi_eff_sq=249152.0464197304
+chi_eff_sq=43674.28694719991
+chi_eff_sq=255188.44271208256
+chi_eff_sq=108601.07886425222
+chi_eff_sq=143401.55805262734
+chi_eff_sq=69637.45160256053
+chi_eff_sq=40198.04169768571
+chi_eff_sq=47377.966917691316
+CosmoComputationError
+chi_eff_sq=10634.746210672402
+chi_eff_sq=326370.98082060815
+chi_eff_sq=516021.09317528305
+chi_eff_sq=12782.633466096366
+chi_eff_sq=18875.231913744006
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=70531.92721751901
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=494412.0447706714
+chi_eff_sq=499842.5131154964
+chi_eff_sq=10923.577844447402
+CosmoComputationError
+chi_eff_sq=527639.2851993201
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=97843.2361637896
+CosmoComputationError
+chi_eff_sq=485523.3607826474
+CosmoComputationError
+chi_eff_sq=486196.148896968
+chi_eff_sq=483553.7104474358
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=481393.6020741877
+chi_eff_sq=482272.5972459058
+chi_eff_sq=482580.04337473295
+chi_eff_sq=482615.4050695747
+chi_eff_sq=482266.4669637147
+CosmoComputationError
+chi_eff_sq=483013.1065323717
+chi_eff_sq=481397.0216185273
+chi_eff_sq=83147.85604667405
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=482983.0206516368
+CosmoComputationError
+chi_eff_sq=485191.04630851006
+chi_eff_sq=482910.43045183644
+chi_eff_sq=481100.2319966988
+chi_eff_sq=484264.3058567555
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=482587.45795408473
+chi_eff_sq=481507.56107507145
+chi_eff_sq=481686.1698065424
+chi_eff_sq=481886.5733347475
+chi_eff_sq=482981.0245005891
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=482051.898614876
+chi_eff_sq=483566.6977804443
+CosmoComputationError
+chi_eff_sq=482374.82956628065
+chi_eff_sq=482088.8577353791
+chi_eff_sq=482279.3671377864
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=482659.38272335264
+chi_eff_sq=484233.6038734824
+chi_eff_sq=482813.84941670427
+chi_eff_sq=481813.3250085925
+CosmoComputationError
+chi_eff_sq=481858.46246007393
+chi_eff_sq=482412.80706477666
+chi_eff_sq=482323.616674033
+chi_eff_sq=482361.8651549711
+chi_eff_sq=483269.56976055226
+chi_eff_sq=481965.62462854735
+chi_eff_sq=482111.9200371675
+chi_eff_sq=481691.4686060165
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=483016.6497616775
+chi_eff_sq=482771.35551403166
+chi_eff_sq=481418.06835174095
+chi_eff_sq=483165.48918343015
+chi_eff_sq=482377.60560649174
+chi_eff_sq=482172.61510626075
+chi_eff_sq=483529.5621287881
+chi_eff_sq=483401.9844278712
+chi_eff_sq=483091.1469694411
+chi_eff_sq=483900.1924502301
+chi_eff_sq=482112.4247840225
+chi_eff_sq=483748.3887396828
+CosmoComputationError
+chi_eff_sq=482651.48122045683
+chi_eff_sq=481617.05114384793
+chi_eff_sq=482545.3226900297
+CosmoComputationError
+chi_eff_sq=482179.74741452915
+chi_eff_sq=482240.5579144875
+chi_eff_sq=482703.39208788326
+chi_eff_sq=481959.5662818667
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482073.6703404286
+chi_eff_sq=482073.67034042906
+chi_eff_sq=482703.39208788326
+chi_eff_sq=481914.5527584376
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.3920878837
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+CosmoComputationError
+chi_eff_sq=482703.3920878842
+chi_eff_sq=482703.39208788343
+CosmoComputationError
+chi_eff_sq=482703.39208788326
+chi_eff_sq=141624.73152349118
+chi_eff_sq=226511.62849180851
+chi_eff_sq=269290.69582653843
+chi_eff_sq=450289.5125839708
+chi_eff_sq=477323.64573021594
+chi_eff_sq=483925.10678766517
+chi_eff_sq=478196.0519254938
+chi_eff_sq=480144.14822264365
+chi_eff_sq=482216.68120976136
+chi_eff_sq=481876.39651602914
+chi_eff_sq=483276.3715068249
+chi_eff_sq=482071.28119716974
+chi_eff_sq=482316.6292730837
+chi_eff_sq=482270.4444320465
+chi_eff_sq=482218.56177202193
+chi_eff_sq=481783.1315758963
+chi_eff_sq=482022.46697155334
+chi_eff_sq=482279.7409528616
+chi_eff_sq=482487.2331340025
+chi_eff_sq=482862.16416855727
+chi_eff_sq=482824.0903854456
+chi_eff_sq=483254.6401525494
+chi_eff_sq=482008.6549365639
+chi_eff_sq=482510.17775526026
+chi_eff_sq=482092.8674827289
+CosmoComputationError
+chi_eff_sq=481411.2767971849
+chi_eff_sq=482414.6713421225
+chi_eff_sq=482141.3275926973
+chi_eff_sq=481663.2242652178
+chi_eff_sq=481875.71207339823
+chi_eff_sq=482461.4866340818
+chi_eff_sq=482525.94999159937
+chi_eff_sq=483045.25234922115
+chi_eff_sq=481791.4719946999
+chi_eff_sq=481855.3282202648
+chi_eff_sq=482763.51590413105
+chi_eff_sq=482361.5474347382
+chi_eff_sq=481970.9404624096
+chi_eff_sq=482734.80562209786
+chi_eff_sq=481529.3613456236
+chi_eff_sq=482157.4436528439
+chi_eff_sq=482437.4274878329
+chi_eff_sq=481658.96875564096
+chi_eff_sq=481659.3344906116
+chi_eff_sq=481562.36805482255
+chi_eff_sq=482325.92907723103
+chi_eff_sq=483017.228772543
+chi_eff_sq=483313.50022173766
+chi_eff_sq=482914.864473448
+chi_eff_sq=482002.04723093077
+chi_eff_sq=481865.93493500416
+chi_eff_sq=482936.3170070037
+chi_eff_sq=482028.1912439043
+chi_eff_sq=482028.1912439044
+chi_eff_sq=482769.6627585964
+chi_eff_sq=482769.6627585958
+chi_eff_sq=482914.86447344813
+chi_eff_sq=482769.6627585964
+chi_eff_sq=482832.3472763734
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482832.3472763734
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=473150.0058830878
+chi_eff_sq=475839.58955764136
+chi_eff_sq=480487.62697458133
+chi_eff_sq=481499.4863369383
+chi_eff_sq=481860.4773819625
+chi_eff_sq=481721.0286652341
+chi_eff_sq=481809.2476608081
+chi_eff_sq=481691.5240599253
+CosmoComputationError
+chi_eff_sq=481296.82350023167
+chi_eff_sq=482876.4034105818
+chi_eff_sq=482074.94755669386
+chi_eff_sq=482153.1557201148
+chi_eff_sq=481914.58565447346
+chi_eff_sq=481563.1935046935
+chi_eff_sq=482102.01746248367
+chi_eff_sq=483044.933153735
+chi_eff_sq=481758.7560706588
+chi_eff_sq=482234.7542890104
+chi_eff_sq=482371.62573477416
+chi_eff_sq=483649.31944981194
+CosmoComputationError
+chi_eff_sq=482355.7962707575
+chi_eff_sq=482619.58864486165
+chi_eff_sq=481517.4850733703
+chi_eff_sq=482298.5853263886
+chi_eff_sq=481931.2152933971
+chi_eff_sq=482926.761789831
+chi_eff_sq=483377.82003830164
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+Polychord Warning: Non deterministic loglikelihood
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.H2(x, y))
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/primpy/inflation.py:94: RuntimeWarning: divide by zero encountered in log
+  sol.logaH = sol.N + np.log(sol.H)
+Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+chi_eff_sq=481518.53776549606
+chi_eff_sq=481093.6784023329
+chi_eff_sq=483169.01854757353
+chi_eff_sq=481947.9338025034
+chi_eff_sq=482550.34512435226
+chi_eff_sq=482083.6446476278
+chi_eff_sq=482536.82319478795
+chi_eff_sq=481688.7947107068
+chi_eff_sq=481381.55665052705
+chi_eff_sq=481450.2026342313
+chi_eff_sq=481554.9476376532
+chi_eff_sq=482263.17334654473
+chi_eff_sq=483105.5192420963
+chi_eff_sq=482184.1372543368
+chi_eff_sq=482259.1691443046
+CosmoComputationError
+chi_eff_sq=480955.42904657306
+chi_eff_sq=482160.76397616556
+CosmoComputationError
+chi_eff_sq=482665.4414908833
+chi_eff_sq=482203.0881442596
+CosmoComputationError
+chi_eff_sq=481346.7096425382
+chi_eff_sq=481346.7096425382
+chi_eff_sq=482186.3178074946
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482729.8782018583
+chi_eff_sq=482567.2964120714
+CosmoComputationError
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+CosmoComputationError
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482567.2964120713
+chi_eff_sq=482567.29641207046
+chi_eff_sq=482567.29641207046
+chi_eff_sq=482567.29641207046
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.3920878837
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482567.2964120713
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+CosmoComputationError
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+CosmoComputationError
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482567.2964120709
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482567.2964120709
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482567.29641207046
+chi_eff_sq=482567.2964120714
+CosmoComputationError
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=440160.63320412906
+chi_eff_sq=459618.1962323008
+chi_eff_sq=491786.0699999629
+chi_eff_sq=476890.12651389453
+chi_eff_sq=478763.62269834796
+chi_eff_sq=482861.1021593056
+chi_eff_sq=488940.7741338829
+chi_eff_sq=487130.46950050344
+CosmoComputationError
+chi_eff_sq=482478.49275389535
+chi_eff_sq=482233.4573440591
+chi_eff_sq=481704.97982438584
+chi_eff_sq=482169.4234305066
+chi_eff_sq=482533.8851080203
+chi_eff_sq=481940.3661639422
+chi_eff_sq=482711.17580542737
+chi_eff_sq=482182.87339459045
+chi_eff_sq=481632.81541814463
+chi_eff_sq=482520.1462240048
+chi_eff_sq=482116.1173228022
+chi_eff_sq=481896.11849229824
+chi_eff_sq=482549.76726363786
+chi_eff_sq=482887.40292386466
+chi_eff_sq=482113.30275048414
+chi_eff_sq=482520.16493781575
+chi_eff_sq=482406.46598891297
+chi_eff_sq=482268.940226173
+chi_eff_sq=482249.6783882985
+chi_eff_sq=482083.1107402597
+chi_eff_sq=482663.1270108206
+chi_eff_sq=482840.22848734434
+chi_eff_sq=482905.7245996899
+chi_eff_sq=482715.2670984445
+chi_eff_sq=483064.92318901804
+chi_eff_sq=482593.9415395886
+chi_eff_sq=483148.6253535501
+chi_eff_sq=483008.32850746624
+chi_eff_sq=482459.5752174826
+chi_eff_sq=481971.39865359163
+chi_eff_sq=482166.8047788419
+chi_eff_sq=482550.2638779903
+chi_eff_sq=482571.33355242346
+chi_eff_sq=481644.410671059
+chi_eff_sq=482067.92143628903
+chi_eff_sq=482441.53720953694
+chi_eff_sq=482548.5409337914
+chi_eff_sq=483532.57116948784
+chi_eff_sq=481890.58487871307
+chi_eff_sq=483809.3830524635
+chi_eff_sq=482197.5675038371
+chi_eff_sq=482846.0764158324
+chi_eff_sq=482104.3333100291
+chi_eff_sq=481589.06469822064
+chi_eff_sq=481861.90904764726
+chi_eff_sq=481963.08359014994
+chi_eff_sq=483654.7346755668
+chi_eff_sq=483541.5053750125
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482403.28684510355
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482119.7633464306
+chi_eff_sq=482403.28684510355
+chi_eff_sq=482403.28684510355
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482403.2868451037
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482403.2868451037
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482403.2868451037
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=483953.51790822914
+chi_eff_sq=484237.2827659933
+chi_eff_sq=484091.37862501154
+chi_eff_sq=478066.90931218106
+chi_eff_sq=480880.32167072286
+chi_eff_sq=481545.9910996891
+chi_eff_sq=481950.44471390784
+chi_eff_sq=484931.6542022741
+chi_eff_sq=481826.3346019679
+chi_eff_sq=482247.74675216555
+chi_eff_sq=481785.6798721644
+chi_eff_sq=481478.79812267184
+chi_eff_sq=482683.62970965897
+chi_eff_sq=482669.4701909238
+chi_eff_sq=481979.6055827545
+chi_eff_sq=482762.10848237504
+chi_eff_sq=482257.8825638085
+chi_eff_sq=482869.913060778
+chi_eff_sq=484141.0223134222
+chi_eff_sq=483311.96132484527
+chi_eff_sq=481473.55334669165
+chi_eff_sq=482444.211274775
+chi_eff_sq=482462.24103699357
+chi_eff_sq=481974.00621593196
+chi_eff_sq=482076.67623847915
+chi_eff_sq=481492.34338544274
+chi_eff_sq=483119.99363111745
+chi_eff_sq=482135.99744718714
+chi_eff_sq=481637.0452963385
+chi_eff_sq=481700.8267230828
+chi_eff_sq=482385.8411760796
+chi_eff_sq=482556.35045755067
+chi_eff_sq=483348.67712621007
+chi_eff_sq=482054.9797477647
+chi_eff_sq=481289.4765965122
+chi_eff_sq=482141.56366463104
+chi_eff_sq=481929.5861242297
+chi_eff_sq=481712.56256629725
+chi_eff_sq=482205.9249952676
+chi_eff_sq=485647.209002888
+chi_eff_sq=482669.56352318195
+chi_eff_sq=482718.4458897466
+chi_eff_sq=481664.85631717957
+chi_eff_sq=482745.90103329543
+chi_eff_sq=483171.6066024028
+chi_eff_sq=482931.30996859
+chi_eff_sq=482379.3184567209
+chi_eff_sq=481804.80688172445
+chi_eff_sq=483448.9939427589
+chi_eff_sq=483061.0454873157
+chi_eff_sq=482855.0740238101
+chi_eff_sq=482201.09579001134
+chi_eff_sq=482548.5673055291
+chi_eff_sq=483126.8064866151
+chi_eff_sq=482257.1873614141
+chi_eff_sq=481363.9732812101
+chi_eff_sq=482731.00970028195
+chi_eff_sq=482780.24135548784
+chi_eff_sq=482548.45028470305
+chi_eff_sq=481730.64986140677
+chi_eff_sq=482574.3363120863
+chi_eff_sq=482590.8410534804
+chi_eff_sq=482351.43570204696
+chi_eff_sq=482334.52330459555
+chi_eff_sq=482735.98893842567
+chi_eff_sq=481914.5527584376
+chi_eff_sq=482703.39208788326
+chi_eff_sq=481914.5527584374
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788343
+chi_eff_sq=481914.5527584374
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=481914.5527584376
+chi_eff_sq=482703.39208788326
+chi_eff_sq=481914.5527584376
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788343
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=482703.39208788326
+chi_eff_sq=481914.5527584371
+chi_eff_sq=578634.5109447072
+chi_eff_sq=472386.16087707115
+chi_eff_sq=549211.5673374246
+chi_eff_sq=526593.1322407662
+chi_eff_sq=489775.0566965506
+chi_eff_sq=473514.12596925563
+chi_eff_sq=482857.2435259078
+chi_eff_sq=480389.9840888013
+chi_eff_sq=483161.0610829139
+chi_eff_sq=480319.11065629206
+chi_eff_sq=482624.0433176684
+chi_eff_sq=481487.28399918985
+chi_eff_sq=482526.2150862321
+chi_eff_sq=482297.839489344
+chi_eff_sq=482061.22168111376
+chi_eff_sq=481843.9006029014
+chi_eff_sq=482681.2218878962
+chi_eff_sq=482418.633203861
+chi_eff_sq=482755.86381373176
+chi_eff_sq=482782.32810455526
+chi_eff_sq=482024.69717344514
+chi_eff_sq=481866.3422010768
+chi_eff_sq=483104.42956928554
+chi_eff_sq=481452.9680755049
+chi_eff_sq=482518.55156510463
+chi_eff_sq=482051.3693047311
+chi_eff_sq=482273.76064819755
+chi_eff_sq=482991.8629265494
+chi_eff_sq=481454.3250203416
+chi_eff_sq=482725.9698082453Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+
+chi_eff_sq=481670.3895556312
+chi_eff_sq=482300.5795033305
+chi_eff_sq=482025.10778506444
+chi_eff_sq=483170.3114703169
+chi_eff_sq=481901.7618465948
+chi_eff_sq=481194.39887236286
+chi_eff_sq=482570.6338735667
+chi_eff_sq=483476.5343425685
+chi_eff_sq=481395.2799459457
+chi_eff_sq=482459.02471556194
+chi_eff_sq=481924.4594257936
+chi_eff_sq=481596.9584004349
+chi_eff_sq=480780.1791863818
+chi_eff_sq=481991.33583109634
+chi_eff_sq=481874.3226939032
+chi_eff_sq=481924.0055465818
+chi_eff_sq=481856.8465947538
+chi_eff_sq=482429.9805491584
+chi_eff_sq=482489.6311086509
+chi_eff_sq=483467.3639832246
+chi_eff_sq=483290.5507647792
+chi_eff_sq=482313.06548892584
+chi_eff_sq=482906.5489485632
+chi_eff_sq=482265.2529366498
+chi_eff_sq=481434.8240745265
+chi_eff_sq=483040.9553828639
+chi_eff_sq=482113.32658995414
+chi_eff_sq=482192.0489270708
+chi_eff_sq=483803.5363645587
+chi_eff_sq=482458.0026537152
+chi_eff_sq=481920.95109518344
+chi_eff_sq=482823.2566193205
+chi_eff_sq=482197.5198376346
+chi_eff_sq=481914.5527584374
+chi_eff_sq=482867.938618371
+chi_eff_sq=481590.650805684
+chi_eff_sq=481590.6508056841
+chi_eff_sq=483541.5053750116
+chi_eff_sq=481914.5527584371
+chi_eff_sq=481914.5527584374
+chi_eff_sq=481914.5527584371
+chi_eff_sq=483541.5053750116
+chi_eff_sq=481914.5527584374
+chi_eff_sq=481914.5527584371
+chi_eff_sq=483541.5053750116
+chi_eff_sq=483541.50537501223
+chi_eff_sq=481914.5527584371
+chi_eff_sq=481914.5527584371
+chi_eff_sq=483541.50537501223
+chi_eff_sq=483541.50537501223
+chi_eff_sq=481914.5527584371
+chi_eff_sq=481914.5527584374
+chi_eff_sq=481914.5527584371
+chi_eff_sq=483541.5053750116
+chi_eff_sq=481914.5527584371
+chi_eff_sq=483541.5053750116
+chi_eff_sq=483541.5053750116
+chi_eff_sq=483541.5053750116
+chi_eff_sq=481914.5527584371
+chi_eff_sq=481914.5527584374
+chi_eff_sq=481914.5527584371
+chi_eff_sq=483541.5053750116
+chi_eff_sq=481914.5527584374
+chi_eff_sq=483541.50537501223
+chi_eff_sq=483541.50537501223
+chi_eff_sq=481914.5527584371
+chi_eff_sq=481914.5527584374
+chi_eff_sq=483541.5053750116
+chi_eff_sq=483541.5053750116
+chi_eff_sq=485634.19927355094
+chi_eff_sq=480127.5229623674
+chi_eff_sq=481796.4332779416
+chi_eff_sq=483941.25947398343
+chi_eff_sq=481887.22639778676
+chi_eff_sq=483088.2657702802
+chi_eff_sq=482860.1704897294
+chi_eff_sq=481778.9826400461
+chi_eff_sq=482461.9376031331
+chi_eff_sq=482972.94542445557
+chi_eff_sq=481501.4946579847
+chi_eff_sq=483340.265812351
+chi_eff_sq=481470.28871854534
+chi_eff_sq=482915.7913037729
+chi_eff_sq=483176.40153965424
+chi_eff_sq=481944.3165775278
+chi_eff_sq=482393.50130500004
+chi_eff_sq=483139.2188331934
+chi_eff_sq=482787.16277136997
+chi_eff_sq=482825.7243587159
+chi_eff_sq=481769.295827149
+chi_eff_sq=482828.6863230377
+chi_eff_sq=482570.77845816186
+chi_eff_sq=481883.6733576545
+chi_eff_sq=482372.30743454455
+chi_eff_sq=481873.3598469178
+chi_eff_sq=482229.1749688973
+chi_eff_sq=481709.528650329
+chi_eff_sq=482575.0418386895
+chi_eff_sq=481457.2633744873
+chi_eff_sq=482566.67113540915
+chi_eff_sq=482221.6579171215
+chi_eff_sq=482284.96555816353
+chi_eff_sq=482684.32357870054
+chi_eff_sq=483585.8244234489
+chi_eff_sq=481597.2718457623
+chi_eff_sq=482358.7276332618
+chi_eff_sq=482510.45417408354
+chi_eff_sq=482346.4321389545
+chi_eff_sq=482540.7596695902
+chi_eff_sq=482647.4227641617
+chi_eff_sq=482692.97054138785
+chi_eff_sq=483093.7209394087
+chi_eff_sq=479783.71791290806
+chi_eff_sq=482460.72495458706
+chi_eff_sq=481919.7547980864
+chi_eff_sq=481647.57059566624
+chi_eff_sq=481698.1097703631
+chi_eff_sq=482639.0114260108
+chi_eff_sq=483198.29320961086
+chi_eff_sq=482530.669941327
+chi_eff_sq=481833.99194300984
+chi_eff_sq=482361.92055059376
+chi_eff_sq=482198.8437053279
+chi_eff_sq=481771.63464933226
+chi_eff_sq=482977.64795221336
+chi_eff_sq=481307.5986737131
+chi_eff_sq=482403.2868451037
+chi_eff_sq=482078.7150655424
+chi_eff_sq=482008.24429257074
+chi_eff_sq=483541.50537501223
+chi_eff_sq=482008.24429257127
+chi_eff_sq=482008.24429257127
+chi_eff_sq=482008.24429257074
+chi_eff_sq=483541.50537501223
+chi_eff_sq=483541.50537501223
+chi_eff_sq=483541.50537501223
+chi_eff_sq=483541.5053750116
+chi_eff_sq=483541.50537501223
+chi_eff_sq=483541.50537501206
+chi_eff_sq=482008.24429257034
+chi_eff_sq=483541.5053750125
+chi_eff_sq=482008.24429257034
+chi_eff_sq=482008.24429257034
+chi_eff_sq=482008.24429257034
+chi_eff_sq=482008.24429257034
+chi_eff_sq=483541.5053750125
+chi_eff_sq=482008.24429257074
+chi_eff_sq=482008.24429257127
+chi_eff_sq=482008.24429257074
+chi_eff_sq=483541.50537501223
+chi_eff_sq=483541.50537501206
+chi_eff_sq=482034.29682511534
+chi_eff_sq=483541.5053750116
+chi_eff_sq=482034.29682511534
+chi_eff_sq=482008.24429257034
+chi_eff_sq=483541.5053750125
+chi_eff_sq=483541.5053750125
+chi_eff_sq=482008.24429257034
+chi_eff_sq=482008.24429257034
+chi_eff_sq=483541.5053750125
+chi_eff_sq=482034.29682511534
+chi_eff_sq=482008.24429257034
+chi_eff_sq=482008.24429257034
+chi_eff_sq=473425.1838526425
+chi_eff_sq=475366.377709393
+chi_eff_sq=479564.43446584773
+chi_eff_sq=483644.33687978104
+chi_eff_sq=480393.28738938656
+chi_eff_sq=481470.2253272933
+chi_eff_sq=481709.61622575234
+chi_eff_sq=483119.60189142934
+chi_eff_sq=482017.99956493557
+chi_eff_sq=481119.3519914177
+chi_eff_sq=481300.1718947923
+chi_eff_sq=482121.23755332286
+chi_eff_sq=483103.3672159663
+chi_eff_sq=482639.664234847
+chi_eff_sq=482580.69175531046
+chi_eff_sq=482795.79492979107
+chi_eff_sq=482050.15403164795
+chi_eff_sq=482604.2322030808
+chi_eff_sq=481709.09050953534
+chi_eff_sq=481623.30724266666
+chi_eff_sq=482122.4450101735
+chi_eff_sq=482393.69870199845
+chi_eff_sq=482629.76553472516
+chi_eff_sq=482171.23216307873
+chi_eff_sq=482103.61100655404
+chi_eff_sq=481666.5085041973
+chi_eff_sq=482233.7618611472
+chi_eff_sq=483391.2058031459
+chi_eff_sq=481633.32352668594
+chi_eff_sq=481769.53179620224
+chi_eff_sq=482938.4134596261
+chi_eff_sq=481846.61642042524
+chi_eff_sq=480782.48463869566
+chi_eff_sq=482808.8568902017
+chi_eff_sq=481875.8373560803
+chi_eff_sq=482367.4259022913
+chi_eff_sq=481399.80510838033
+chi_eff_sq=483021.44583134475
+chi_eff_sq=482513.19361378014
+chi_eff_sq=481627.0377075525
+chi_eff_sq=482619.3697562371
+chi_eff_sq=482207.7640711194
+chi_eff_sq=481632.27411021723
+chi_eff_sq=483414.7262194001
+chi_eff_sq=481400.2523976089
+chi_eff_sq=482465.5472401639
+chi_eff_sq=481623.7473042169
+chi_eff_sq=482108.54158075864
+chi_eff_sq=482048.06739562587
+chi_eff_sq=483298.8198566076
+chi_eff_sq=482200.09477922256
+chi_eff_sq=481995.09005674714
+chi_eff_sq=482006.1507897936
+chi_eff_sq=482611.30726651294
+chi_eff_sq=482805.8664910574
+chi_eff_sq=482033.16872123117
+chi_eff_sq=482068.26067440567
+chi_eff_sq=482600.30130331236
+chi_eff_sq=481507.2623781948
+chi_eff_sq=482084.56498269114
+chi_eff_sq=482164.6234075887
+chi_eff_sq=482498.6573407539
+chi_eff_sq=482774.9588012683
+chi_eff_sq=481694.9487773129
+chi_eff_sq=481495.983219943
+chi_eff_sq=482708.0912075966
+chi_eff_sq=482634.75453262456
+chi_eff_sq=483045.00581315457
+chi_eff_sq=482524.2755791
+chi_eff_sq=481669.95333956525
+chi_eff_sq=482790.74390539934
+chi_eff_sq=482222.85685841856
+chi_eff_sq=482008.24429257074
+chi_eff_sq=482454.02141678083
+chi_eff_sq=482454.02141678083
+chi_eff_sq=482454.0214167808
+chi_eff_sq=482008.24429257173
+chi_eff_sq=482008.24429257074
+chi_eff_sq=482008.24429257074
+chi_eff_sq=482454.02141678083
+chi_eff_sq=482454.0214167808
+chi_eff_sq=482008.24429257127
+chi_eff_sq=482008.2442925708
+chi_eff_sq=482454.0214167808
+chi_eff_sq=482008.24429257127
+chi_eff_sq=482008.24429257127
+chi_eff_sq=482454.02141678036
+chi_eff_sq=483541.5053750116
+chi_eff_sq=482008.24429257127
+chi_eff_sq=482008.24429257127
+chi_eff_sq=482008.24429257074
+chi_eff_sq=483541.50537501223
+chi_eff_sq=482008.24429257173
+chi_eff_sq=482008.24429257074
+chi_eff_sq=176068.21163907388
+chi_eff_sq=234865.150956706
+chi_eff_sq=273187.3397221607
+chi_eff_sq=274395.24264811183
+chi_eff_sq=390880.5766965855
+chi_eff_sq=416129.62069885794
+chi_eff_sq=486427.57613071013
+chi_eff_sq=479446.3664429198
+chi_eff_sq=482209.3938359392
+chi_eff_sq=480835.8337620691
+chi_eff_sq=482162.47121110477
+chi_eff_sq=481639.07788821857
+chi_eff_sq=481909.50130280067
+chi_eff_sq=482792.15168027213
+chi_eff_sq=481462.9379075199
+chi_eff_sq=482833.6061069049
+chi_eff_sq=481627.7802166401
+chi_eff_sq=482539.9993055397
+chi_eff_sq=482386.1953077623
+chi_eff_sq=484094.50072213454
+chi_eff_sq=482547.41238649056
+chi_eff_sq=482010.68571077054Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 15000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+
+chi_eff_sq=482263.69819987833
+chi_eff_sq=481894.8952405908
+chi_eff_sq=482449.83897775435
+chi_eff_sq=482722.339599272
+chi_eff_sq=482526.4603084045
+chi_eff_sq=482224.28786356805
+chi_eff_sq=482902.0549114693
+chi_eff_sq=482531.3079474181
+chi_eff_sq=483302.3649716387
+chi_eff_sq=481450.62599336257
+chi_eff_sq=482047.89269512234
+chi_eff_sq=482033.6430666587
+chi_eff_sq=483221.7964888553
+chi_eff_sq=481885.5803538373
+chi_eff_sq=482270.03119624814
+chi_eff_sq=483698.7831003898
+chi_eff_sq=481638.4126727636
+chi_eff_sq=483271.04219878337
+chi_eff_sq=483563.41107030906
+chi_eff_sq=482203.1320927746
+chi_eff_sq=482258.14504802955
+chi_eff_sq=482170.6099274748
+chi_eff_sq=483382.3951292891
+chi_eff_sq=483079.627342303
+chi_eff_sq=481835.50381405966
+chi_eff_sq=481585.3586906612
+chi_eff_sq=481678.70156704605
+chi_eff_sq=482514.68149228836
+chi_eff_sq=481996.5364638816
+chi_eff_sq=481799.94331949664
+chi_eff_sq=483112.2148837138
+chi_eff_sq=482687.35504441074
+chi_eff_sq=482466.89809990715
+chi_eff_sq=482715.11561216175
+chi_eff_sq=481733.4799373472
+chi_eff_sq=482028.84337214933
+chi_eff_sq=483232.33211679617
+chi_eff_sq=482394.488721245
+chi_eff_sq=481893.16932643414
+chi_eff_sq=483044.7097860644
+chi_eff_sq=483419.7147958588
+chi_eff_sq=483415.5774383335
+chi_eff_sq=483701.12727940123
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=481578.37035469763
+chi_eff_sq=482008.24429257074
+chi_eff_sq=482144.95456307026
+chi_eff_sq=482008.2442925708
+chi_eff_sq=482008.24429257173
+chi_eff_sq=482008.24429257074
+chi_eff_sq=482008.24429257173
+chi_eff_sq=482008.24429257074
+chi_eff_sq=482008.24429257074
+chi_eff_sq=482008.24429257074
+chi_eff_sq=482008.24429257173
+chi_eff_sq=482008.24429257173
+chi_eff_sq=482008.24429257173
+chi_eff_sq=482144.95456307026
+chi_eff_sq=482144.9545630706
+chi_eff_sq=482008.24429257074
+chi_eff_sq=482008.24429257173
+chi_eff_sq=482008.24429257074
+chi_eff_sq=482144.95456307026
+chi_eff_sq=482008.24429257034
+chi_eff_sq=482008.24429257034
+chi_eff_sq=482144.95456307026
+chi_eff_sq=482144.9545630706
+chi_eff_sq=482144.95456307026
+chi_eff_sq=482144.95456307026
+chi_eff_sq=482008.24429257127
+chi_eff_sq=482008.2442925708
+chi_eff_sq=482144.9545630706
+chi_eff_sq=483235.296111373
+chi_eff_sq=499227.98525325797
+chi_eff_sq=492190.04876813426
+chi_eff_sq=484433.40929154976
+chi_eff_sq=480739.0758717621
+chi_eff_sq=481954.34038872534
+chi_eff_sq=485097.3536664228
+chi_eff_sq=483178.1653400954
+chi_eff_sq=482808.8892763171
+chi_eff_sq=483134.34920249693
+chi_eff_sq=482335.28149548644
+chi_eff_sq=481230.0690695965
+chi_eff_sq=482959.9173585837
+chi_eff_sq=482972.8212029996
+chi_eff_sq=481841.65391401254
+chi_eff_sq=481821.2916370622
+chi_eff_sq=482820.54176312045
+chi_eff_sq=482727.91499978845
+chi_eff_sq=482604.71935161186
+chi_eff_sq=481839.573615348
+chi_eff_sq=482115.6669123036
+chi_eff_sq=481671.0160682913
+chi_eff_sq=482098.7143345033
+chi_eff_sq=482753.0190212737
+chi_eff_sq=482467.9924506873
+chi_eff_sq=482319.98355771106
+chi_eff_sq=483254.52921992436
+chi_eff_sq=482416.4190323372
+chi_eff_sq=483026.11080129456
+chi_eff_sq=482300.987237262
+chi_eff_sq=481694.8845226018
+chi_eff_sq=482886.5211207353
+chi_eff_sq=482334.2831279212
+chi_eff_sq=482577.8123729045
+chi_eff_sq=481249.06870477315
+chi_eff_sq=482347.6503986654
+chi_eff_sq=482529.4593057084
+chi_eff_sq=482769.32172145153
+chi_eff_sq=482058.24965702376
+chi_eff_sq=481883.4466234806
+chi_eff_sq=481930.52297835005
+chi_eff_sq=481760.6080216358
+chi_eff_sq=482243.53498512896
+chi_eff_sq=481691.6970770201
+chi_eff_sq=482633.4512865796
+chi_eff_sq=482169.4935109581
+chi_eff_sq=482326.65745163255
+chi_eff_sq=482714.6233505904
+chi_eff_sq=482288.4275611514
+chi_eff_sq=482037.28092204314
+chi_eff_sq=482381.32881503564
+chi_eff_sq=481450.85968641075
+chi_eff_sq=482336.36878026923
+chi_eff_sq=481492.80633320333
+chi_eff_sq=482881.78061137337
+chi_eff_sq=482149.6283641441
+chi_eff_sq=481730.21922398213
+chi_eff_sq=482395.41633401567
+chi_eff_sq=482662.41707920644
+chi_eff_sq=481918.29745658423
+chi_eff_sq=482763.2369961407
+chi_eff_sq=481875.8913341983
+chi_eff_sq=481752.21746172715
+chi_eff_sq=481590.650805684
+chi_eff_sq=483456.7307820577
+chi_eff_sq=483456.7307820577
+chi_eff_sq=482008.24429257034
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=482008.24429257074
+chi_eff_sq=484930.955159983
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=484930.95515998366
+chi_eff_sq=483235.296111373
+chi_eff_sq=484930.95515998366
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=484930.95515998366
+chi_eff_sq=484930.9551599838
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=484930.95515998366
+chi_eff_sq=484930.9551599838
+chi_eff_sq=483235.296111373
+chi_eff_sq=484930.95515998366
+chi_eff_sq=484930.9551599838
+chi_eff_sq=484930.95515998366
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=577849.3838858503
+chi_eff_sq=571126.3535697784
+chi_eff_sq=556422.6739048668
+chi_eff_sq=514408.1478763926
+chi_eff_sq=488936.57947905763
+chi_eff_sq=482573.63511315524
+chi_eff_sq=483584.3598623117
+chi_eff_sq=483059.5974844766
+chi_eff_sq=482847.8409542737
+chi_eff_sq=481698.9349376531
+chi_eff_sq=480846.10904310335
+chi_eff_sq=481643.0047776502
+chi_eff_sq=482738.5906378997
+chi_eff_sq=482868.5005207913
+chi_eff_sq=482673.73874730413
+chi_eff_sq=481686.66225497884
+chi_eff_sq=482391.1543237089
+chi_eff_sq=481732.1674778147
+chi_eff_sq=482185.3246518092
+chi_eff_sq=480874.7546549701
+chi_eff_sq=482726.9019178279
+chi_eff_sq=482475.99832738505
+chi_eff_sq=484406.4441544601
+chi_eff_sq=481399.7787562158
+chi_eff_sq=482317.6896552304
+chi_eff_sq=482532.66670259275
+chi_eff_sq=482424.47583456035
+chi_eff_sq=482607.1475585231
+chi_eff_sq=482695.2062330309
+chi_eff_sq=481542.13923710946
+chi_eff_sq=482125.31387101446
+chi_eff_sq=481875.6758383301
+chi_eff_sq=481828.21434630675
+chi_eff_sq=482459.9157225045
+chi_eff_sq=482445.93228965846
+chi_eff_sq=482403.6353041559
+chi_eff_sq=481729.5525094889
+chi_eff_sq=481780.14958152635
+chi_eff_sq=482871.75016487687
+chi_eff_sq=482649.17349170987
+chi_eff_sq=482071.1817912239
+chi_eff_sq=482888.77843532426
+chi_eff_sq=482088.3309334371
+chi_eff_sq=482392.81117272715
+chi_eff_sq=482684.6764752187
+chi_eff_sq=481332.47968373203
+chi_eff_sq=481099.6158455116
+chi_eff_sq=481799.2027652096
+chi_eff_sq=482089.73324129824
+chi_eff_sq=483695.9695332814
+chi_eff_sq=481422.47098462324
+chi_eff_sq=482328.7516243702
+chi_eff_sq=482170.15809868963
+chi_eff_sq=482198.58984097274
+chi_eff_sq=482425.8825625811
+chi_eff_sq=482075.85961247067
+chi_eff_sq=482085.70209629135
+chi_eff_sq=482711.04136551253
+chi_eff_sq=482456.9246230384
+chi_eff_sq=481378.19612683717
+chi_eff_sq=482527.4409922851
+chi_eff_sq=482276.74359326967
+chi_eff_sq=483223.0319856066
+chi_eff_sq=482757.55214710254
+chi_eff_sq=483078.6906448718
+chi_eff_sq=483415.57743833365
+chi_eff_sq=484930.9551599838
+chi_eff_sq=483102.226080638
+chi_eff_sq=482596.0867588163
+chi_eff_sq=483129.44438137836
+chi_eff_sq=482144.9545630707
+chi_eff_sq=484930.9551599833
+chi_eff_sq=483235.29611137346
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=483235.296111373
+chi_eff_sq=427671.7290439867
+chi_eff_sq=429439.7273913238
+chi_eff_sq=470397.47759234125
+chi_eff_sq=480762.08716347546
+chi_eff_sq=484273.7339788676
+chi_eff_sq=480987.3644159844
+chi_eff_sq=481462.0577812525
+chi_eff_sq=482214.2944119852
+chi_eff_sq=481435.15425674943
+chi_eff_sq=483310.07278772973
+chi_eff_sq=483662.3162142693
+chi_eff_sq=481283.1494695801
+chi_eff_sq=482091.29552776506
+chi_eff_sq=481912.9952242983
+chi_eff_sq=481618.8927416736
+chi_eff_sq=483022.60978277674
+chi_eff_sq=481288.7286228627
+chi_eff_sq=482728.2774514419Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+________________
+lives      | 20 |
+phantoms   |207 |
+posteriors | 26 |
+equals     |  1 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                  33
+nposterior =                  26
+nequals    =                   1
+nlike      =                2108
+<nlike>    =         103.55   (           4.14 per slice )
+log(Z)     =       -60232.21 +/-  0.83
+log(Z_1)   =       -60232.21 +/-  0.83 (still evaluating)
+
+
+
+/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages/classy.cpython-38-x86_64-linux-gnu.so
+['/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages', '/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages/class_public', '/rds/user/wnd22/hpc-work/Will_solve_b/Polychord_solveb', '/usr/local/software/master/python/3.8/lib/python38.zip', '/usr/local/software/master/python/3.8/lib/python3.8', '/usr/local/software/master/python/3.8/lib/python3.8/lib-dynload', '/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages', '/home/wnd22/rds/hpc-work/clik_installs/code/planck/code/plc_3.0/plc-3.1/lib/python/site-packages', '/home/wnd22/rds/hpc-work/clik_installs/code/planck/code/plc_3.0/plc-3.1/lib/python/site-packages']
+chi_eff_sq=184892.20422456847
+chi_eff_sq=464766.7633192389
+chi_eff_sq=100958.60895329191
+chi_eff_sq=51461.02611845028
+chi_eff_sq=44761.59151746722
+chi_eff_sq=7405.354517540302
+chi_eff_sq=403624.4352582602
+chi_eff_sq=29906.995293677504
+chi_eff_sq=23153.886294974196
+chi_eff_sq=75834.9518088209
+chi_eff_sq=256109.90949113178
+chi_eff_sq=157535.14156673648
+chi_eff_sq=80782.56805533764
+chi_eff_sq=53481.934516742615
+chi_eff_sq=57450.03121747614
+chi_eff_sq=74205.54102954942
+chi_eff_sq=116589.1437622439
+chi_eff_sq=114438.5517356911
+chi_eff_sq=30318.384502273006
+chi_eff_sq=21815.509460209054
+chi_eff_sq=112749.78413417892
+chi_eff_sq=2e+30
+chi_eff_sq=93777.38063443887
+chi_eff_sq=92074.71873098673
+chi_eff_sq=93526.26980387054
+chi_eff_sq=160960.85718895405
+chi_eff_sq=109421.85655239999
+chi_eff_sq=92116.66574245579
+chi_eff_sq=88466.31057676264
+chi_eff_sq=2e+30
+chi_eff_sq=165942.86545380572
+chi_eff_sq=83159.69173402767
+chi_eff_sq=84723.40663982471
+chi_eff_sq=274012.89868291223
+chi_eff_sq=128487.03997025246
+chi_eff_sq=74717.02589496624
+chi_eff_sq=163412.21323908653
+chi_eff_sq=59948.98488165951
+chi_eff_sq=126763.13271080116
+chi_eff_sq=185418.34298157418
+chi_eff_sq=87526.27219301376
+chi_eff_sq=76362.14070543925
+chi_eff_sq=102715.01207553293
+chi_eff_sq=79960.75227835454
+chi_eff_sq=100069.64019317074
+chi_eff_sq=98443.62613426852
+chi_eff_sq=113939.05467489384
+chi_eff_sq=112794.67169419055
+chi_eff_sq=112679.97098241923
+chi_eff_sq=592493.154166143
+chi_eff_sq=112174.96604713573
+chi_eff_sq=112207.64129771692
+chi_eff_sq=2e+30
+chi_eff_sq=112232.99192899409
+chi_eff_sq=513411.44014729606
+CosmoComputationError
+chi_eff_sq=95950.97051119541
+chi_eff_sq=117117.18254246737
+chi_eff_sq=107432.51627222479
+chi_eff_sq=112567.72883391057
+chi_eff_sq=289725.8572829142
+chi_eff_sq=112387.48434080709
+chi_eff_sq=112205.40426528554
+chi_eff_sq=112422.04386558579
+chi_eff_sq=112329.73548552238
+chi_eff_sq=96709.14269855256
+chi_eff_sq=112420.7453134552
+chi_eff_sq=112384.72519583773
+chi_eff_sq=112204.9567149942
+chi_eff_sq=112306.1142938958
+chi_eff_sq=112142.25128578223
+chi_eff_sq=112160.70515945238
+chi_eff_sq=112246.78169426468
+chi_eff_sq=112169.30704513882
+chi_eff_sq=112327.14779293229
+chi_eff_sq=512419.861510271
+chi_eff_sq=112229.24808158047
+chi_eff_sq=112279.59081464933
+chi_eff_sq=112278.87875056405
+chi_eff_sq=112229.43680045704
+chi_eff_sq=112218.3379621178
+chi_eff_sq=112276.53088733753
+chi_eff_sq=512034.6896420542
+chi_eff_sq=112222.25131420992
+chi_eff_sq=112199.01284880834
+chi_eff_sq=112221.55291450377
+chi_eff_sq=112303.97396111232
+chi_eff_sq=112333.56383020659
+chi_eff_sq=112239.9077642939
+chi_eff_sq=112262.35320334179
+chi_eff_sq=112223.25060961145
+chi_eff_sq=512834.8170028699
+chi_eff_sq=112351.90833767747
+chi_eff_sq=112299.90006716095
+chi_eff_sq=112220.99632109741
+chi_eff_sq=112223.77774466366
+chi_eff_sq=112157.15310388297
+chi_eff_sq=112255.5941480077
+chi_eff_sq=112199.51980683689
+chi_eff_sq=112265.66177427118
+chi_eff_sq=112254.7714894648
+chi_eff_sq=512941.1402423323
+chi_eff_sq=112143.23713851397
+chi_eff_sq=112371.99512791848
+chi_eff_sq=112243.81823195884
+chi_eff_sq=112253.2216955102
+chi_eff_sq=112234.56336581337
+chi_eff_sq=112284.29776462793
+chi_eff_sq=112278.4024235433
+chi_eff_sq=112295.72377733512
+chi_eff_sq=112275.37087919885
+chi_eff_sq=112234.48855645789
+chi_eff_sq=112245.58933135212
+chi_eff_sq=112242.50574138755
+chi_eff_sq=112241.49094991687
+chi_eff_sq=112253.3848396263
+chi_eff_sq=112199.95953390982
+chi_eff_sq=112272.50431979183
+chi_eff_sq=112233.84639034438
+chi_eff_sq=112226.18643485276
+chi_eff_sq=512459.61663424334
+chi_eff_sq=112257.39793425002
+chi_eff_sq=112179.31765098832
+chi_eff_sq=112263.24611480627
+chi_eff_sq=513128.83529836976
+chi_eff_sq=112268.91989982409
+chi_eff_sq=112241.58331944577
+chi_eff_sq=112231.63363069731
+chi_eff_sq=112223.27529568704
+chi_eff_sq=112255.74525012718
+chi_eff_sq=512356.6798706637
+chi_eff_sq=112224.39313965506
+chi_eff_sq=112204.69137545222
+chi_eff_sq=112233.89073182656
+chi_eff_sq=112277.05050607774
+chi_eff_sq=112236.59730893227
+CosmoComputationError
+chi_eff_sq=112301.9061337088
+chi_eff_sq=112255.83813008768
+chi_eff_sq=512574.58144119225
+chi_eff_sq=112267.93811023062
+chi_eff_sq=112296.31416714897
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112267.93811023068
+CosmoComputationError
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=512297.2175398788
+chi_eff_sq=112285.40190684331
+CosmoComputationError
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112027.59829720033
+chi_eff_sq=513832.4488653725
+chi_eff_sq=114225.25189937423
+chi_eff_sq=112214.928236003
+chi_eff_sq=112836.52626147168
+chi_eff_sq=112745.62615821612
+chi_eff_sq=112265.62256429109
+chi_eff_sq=112592.22805135815
+chi_eff_sq=112536.59953698328
+chi_eff_sq=112397.54828992099
+chi_eff_sq=512952.93417649495
+chi_eff_sq=112289.19127379583
+chi_eff_sq=112286.82832840073
+chi_eff_sq=112348.99783273786
+chi_eff_sq=112242.58654822643
+chi_eff_sq=112221.18059719363
+chi_eff_sq=112292.76212273368
+chi_eff_sq=112198.17035641313
+chi_eff_sq=112138.1608921725
+chi_eff_sq=512942.37534321524
+chi_eff_sq=112243.0031051799
+chi_eff_sq=112300.69567687732
+chi_eff_sq=112209.575929227
+chi_eff_sq=112268.10025953475
+chi_eff_sq=112240.63149068429
+chi_eff_sq=112283.1455561608
+chi_eff_sq=112209.69962233747
+chi_eff_sq=112284.98651777752
+chi_eff_sq=512517.61029650306
+chi_eff_sq=112242.24803890332
+chi_eff_sq=112228.05322427077
+chi_eff_sq=112289.69230597961
+chi_eff_sq=112239.5762503338
+chi_eff_sq=112237.96745058034
+chi_eff_sq=112301.60762325345
+chi_eff_sq=112185.07334768573
+chi_eff_sq=112169.84635824294
+chi_eff_sq=112350.37040823442
+chi_eff_sq=112219.49183485036
+chi_eff_sq=112265.42736567394
+chi_eff_sq=112277.74531259178
+chi_eff_sq=112220.99225347559
+chi_eff_sq=112230.38315418856
+chi_eff_sq=112324.0821101171
+chi_eff_sq=512459.3770927145
+chi_eff_sq=112210.25223414409
+chi_eff_sq=112210.46553191429
+chi_eff_sq=112232.47343882162
+chi_eff_sq=112258.0813524817
+chi_eff_sq=112251.05786982154
+chi_eff_sq=112237.71734431465
+chi_eff_sq=112236.86095808848
+chi_eff_sq=112210.79628227426
+chi_eff_sq=112208.42186022177
+chi_eff_sq=112273.01992689796
+chi_eff_sq=112273.01992689782
+chi_eff_sq=112206.09987073927
+chi_eff_sq=112206.09987073927
+chi_eff_sq=112190.27215500476
+CosmoComputationError
+chi_eff_sq=112303.81176478846
+chi_eff_sq=112230.91991780365
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112303.81176478846
+chi_eff_sq=512848.45441172534
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=512939.39564133226
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684337
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=512848.45441172534
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684343
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684337
+CosmoComputationError
+chi_eff_sq=112285.40190684331
+chi_eff_sq=512939.39564133226
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=512206.48924198386
+chi_eff_sq=112285.40190684331
+chi_eff_sq=112285.40190684331
+chi_eff_sq=23199.44294826302
+chi_eff_sq=430200.04850005277Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 15000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 20000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 25000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 15000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 20000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 25000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 30000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 15000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages/classy.cpython-38-x86_64-linux-gnu.so
+['/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages', '/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages/class_public', '/rds/user/wnd22/hpc-work/Will_solve_b/Polychord_solveb', '/usr/local/software/master/python/3.8/lib/python38.zip', '/usr/local/software/master/python/3.8/lib/python3.8', '/usr/local/software/master/python/3.8/lib/python3.8/lib-dynload', '/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages', '/home/wnd22/rds/hpc-work/clik_installs/code/planck/code/plc_3.0/plc-3.1/lib/python/site-packages', '/home/wnd22/rds/hpc-work/clik_installs/code/planck/code/plc_3.0/plc-3.1/lib/python/site-packages']
+chi_eff_sq=197552.79296481676
+chi_eff_sq=18984.056726417006
+chi_eff_sq=122367.09958566086
+chi_eff_sq=67384.05311178745
+chi_eff_sq=26267.778508980147
+chi_eff_sq=629530.3507336029
+chi_eff_sq=45250.05236006348
+chi_eff_sq=342783.49672309624
+chi_eff_sq=53324.80886022006
+chi_eff_sq=21945.268196108183
+chi_eff_sq=40652.593460818985
+chi_eff_sq=281494.6950240519
+chi_eff_sq=148404.63087840946
+chi_eff_sq=73352.58244081444
+chi_eff_sq=520431.81634735095
+chi_eff_sq=20249.67209728117
+chi_eff_sq=104919.45509220533
+chi_eff_sq=23005.223392821543
+chi_eff_sq=36974.41817987088
+chi_eff_sq=25585.23917207871
+chi_eff_sq=119132.66482050893
+chi_eff_sq=157531.64733638024
+chi_eff_sq=27705.669367178478
+chi_eff_sq=9369.138372993288
+chi_eff_sq=9204.68649515343
+chi_eff_sq=22892.1061482407
+chi_eff_sq=117861.79183462271
+chi_eff_sq=7390.465995924719
+chi_eff_sq=7896.683043178798
+chi_eff_sq=5277.844168508091
+chi_eff_sq=49288.610325173606
+chi_eff_sq=84489.37758966231
+chi_eff_sq=311241.5664893396
+chi_eff_sq=493734.216609551
+chi_eff_sq=429329.37356132834
+chi_eff_sq=122687.02098413231
+chi_eff_sq=168981.02877011336
+chi_eff_sq=18772.89599317664
+chi_eff_sq=157588.72374160626
+CosmoComputationError
+chi_eff_sq=101897.68205827195
+chi_eff_sq=60537.42821024941
+chi_eff_sq=9147.59694677203
+chi_eff_sq=35442.55724654053
+chi_eff_sq=35906.89019668434
+chi_eff_sq=43375.71649937996
+chi_eff_sq=64574.43300756516
+chi_eff_sq=45174.33280171371
+chi_eff_sq=129637.49926689567
+chi_eff_sq=75209.29303435858
+chi_eff_sq=88778.99772695125
+chi_eff_sq=57457.31096888067
+chi_eff_sq=169215.23404974036
+chi_eff_sq=547211.2616668238
+chi_eff_sq=155244.99421369916
+chi_eff_sq=18014.909935246003
+chi_eff_sq=58256.72028073916
+chi_eff_sq=126979.82095865606
+chi_eff_sq=581487.4995449516
+chi_eff_sq=255933.43216291003
+chi_eff_sq=15516.549147666461
+chi_eff_sq=137438.68376272783
+chi_eff_sq=15910.708981277028
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=15057.27350983685
+chi_eff_sq=29916.295331385598
+chi_eff_sq=30422.57660119735
+chi_eff_sq=40348.34354810625
+chi_eff_sq=41318.65757096496
+chi_eff_sq=138772.79356509927
+chi_eff_sq=44775.91018394953
+chi_eff_sq=139738.84521601678
+chi_eff_sq=152362.3740015115
+chi_eff_sq=11638.020687820504
+CosmoComputationError
+chi_eff_sq=10431.500459330096
+chi_eff_sq=105838.04232403851
+chi_eff_sq=9896.06844269154
+CosmoComputationError
+chi_eff_sq=513571.3285344517
+CosmoComputationError
+chi_eff_sq=28336.896341593158
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=49662.32104081905
+chi_eff_sq=525502.5024921368
+CosmoComputationError
+chi_eff_sq=375494.9616970702
+chi_eff_sq=15767.452596001509
+CosmoComputationError
+chi_eff_sq=519568.9863190891
+chi_eff_sq=743898.0478603381
+chi_eff_sq=78866.3979669024
+chi_eff_sq=526393.3684693712
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=17181.77724686977
+chi_eff_sq=60599.94410890028
+CosmoComputationError
+chi_eff_sq=559185.4301164466
+chi_eff_sq=547361.1587064653
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=490139.67529529106
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=87036.34987878993
+chi_eff_sq=521528.0800972109
+chi_eff_sq=521569.3267998779
+chi_eff_sq=29712.316138637252
+chi_eff_sq=598965.0415914231
+CosmoComputationError
+chi_eff_sq=246164.02258653275
+chi_eff_sq=419110.38135202223
+chi_eff_sq=8985.041863883687
+chi_eff_sq=116091.07608203396
+chi_eff_sq=515588.7909370922
+chi_eff_sq=518258.6066419839
+chi_eff_sq=536517.9166665126
+chi_eff_sq=399024.77430883364
+chi_eff_sq=20170.948356600216
+chi_eff_sq=27295.407517004347
+chi_eff_sq=35121.84872181978
+chi_eff_sq=31608.4693833357
+chi_eff_sq=2e+30
+chi_eff_sq=83713.22593360831
+chi_eff_sq=474280.02525463485
+CosmoComputationError
+chi_eff_sq=359422.70357693103
+chi_eff_sq=422743.19859617867
+chi_eff_sq=436541.0469919544
+chi_eff_sq=447852.5166216046
+CosmoComputationError
+chi_eff_sq=2e+30
+chi_eff_sq=444270.32390429435
+chi_eff_sq=443484.98095032905
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=442233.35057535657
+chi_eff_sq=83308.65231704508
+chi_eff_sq=83202.57613818246
+chi_eff_sq=83228.51306512684
+chi_eff_sq=83212.1571128783
+chi_eff_sq=504174.3733829166
+chi_eff_sq=442190.98613865447
+chi_eff_sq=442284.4821435424
+chi_eff_sq=442123.5749920322
+chi_eff_sq=442126.1297861986
+CosmoComputationError
+chi_eff_sq=442177.2257254067
+chi_eff_sq=442257.2706861678
+chi_eff_sq=442162.62193929026
+chi_eff_sq=40752.1488868258
+chi_eff_sq=552201.1817050237
+chi_eff_sq=373398.8457943405
+chi_eff_sq=391657.62859779573
+chi_eff_sq=425048.32675138896
+chi_eff_sq=111083.80953984526
+chi_eff_sq=442689.5409330092
+chi_eff_sq=442478.871361028
+chi_eff_sq=395311.7841281581
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+CosmoComputationError
+chi_eff_sq=442036.4531466055
+chi_eff_sq=442128.40944873734
+CosmoComputationError
+chi_eff_sq=442144.07765934285
+chi_eff_sq=442217.751836674
+CosmoComputationError
+chi_eff_sq=2e+30
+chi_eff_sq=442209.41143599484
+chi_eff_sq=442318.32663144695
+chi_eff_sq=119232.80034914563
+chi_eff_sq=513140.62405766296
+chi_eff_sq=19171.091675842876
+chi_eff_sq=494760.0372412633
+chi_eff_sq=274726.935555171
+chi_eff_sq=8094.706440842578
+chi_eff_sq=458384.07376924413
+chi_eff_sq=443513.6211366649
+CosmoComputationError
+chi_eff_sq=453591.2652223959
+chi_eff_sq=457224.0985548173
+CosmoComputationError
+chi_eff_sq=455835.5671861509
+chi_eff_sq=455555.7487069444
+chi_eff_sq=453915.8182275049
+chi_eff_sq=455096.69380884
+chi_eff_sq=454241.39657736215
+chi_eff_sq=454795.0636905243
+chi_eff_sq=454469.5267451238
+chi_eff_sq=7624.371318678878
+chi_eff_sq=42344.71598039896
+chi_eff_sq=14501.170720932854
+chi_eff_sq=180165.0612880914
+chi_eff_sq=187068.0279719367
+chi_eff_sq=701673.5634497862
+chi_eff_sq=487956.2945153098
+chi_eff_sq=437683.9532571628
+chi_eff_sq=462686.8376689443
+chi_eff_sq=445361.21798538667
+chi_eff_sq=458568.2064833763
+CosmoComputationError
+chi_eff_sq=446033.4397863906
+chi_eff_sq=446842.3440250248
+chi_eff_sq=448753.51086774113
+CosmoComputationError
+chi_eff_sq=456140.2609789513
+chi_eff_sq=452333.74942915444
+chi_eff_sq=454632.46192296897
+chi_eff_sq=455225.3654198131
+CosmoComputationError
+chi_eff_sq=454719.4878174033
+chi_eff_sq=454932.91040551406
+chi_eff_sq=454968.77750271006
+chi_eff_sq=454894.57677458413
+chi_eff_sq=454914.5185897653
+chi_eff_sq=454811.86921001354
+chi_eff_sq=454896.4018145816
+chi_eff_sq=454942.7352034217
+chi_eff_sq=454925.2786909893
+chi_eff_sq=454972.20166594104
+chi_eff_sq=229443.06289823432
+chi_eff_sq=454885.0834071588
+chi_eff_sq=454803.01180670667
+chi_eff_sq=454896.20453463076
+chi_eff_sq=454858.47617885284
+chi_eff_sq=454940.12261490355
+chi_eff_sq=454893.6480667171
+chi_eff_sq=454942.1620843732
+chi_eff_sq=455036.94649684604
+CosmoComputationError
+chi_eff_sq=454939.99476339703
+chi_eff_sq=454915.12197860354
+chi_eff_sq=454937.0221870292
+chi_eff_sq=454871.8825161856
+chi_eff_sq=454862.0539972717
+chi_eff_sq=454932.60206363595
+chi_eff_sq=454888.8190699869
+chi_eff_sq=454838.51506554044
+chi_eff_sq=454856.2573717007
+chi_eff_sq=454939.3835820415
+chi_eff_sq=454882.81775109266
+CosmoComputationError
+chi_eff_sq=229436.90977263154
+chi_eff_sq=229431.69481816396
+chi_eff_sq=454875.80506889184
+chi_eff_sq=454846.38177904504
+chi_eff_sq=454882.39681024494
+chi_eff_sq=454763.5321324114
+chi_eff_sq=454835.6567599301
+chi_eff_sq=454871.3986381954
+chi_eff_sq=454838.9044095668
+chi_eff_sq=454938.072220155
+chi_eff_sq=454864.75463541516
+chi_eff_sq=454912.74583403225
+chi_eff_sq=454921.63150769833Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages/classy.cpython-38-x86_64-linux-gnu.so
+['/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages', '/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages/class_public', '/rds/user/wnd22/hpc-work/Will_solve_b/Polychord_solveb', '/usr/local/software/master/python/3.8/lib/python38.zip', '/usr/local/software/master/python/3.8/lib/python3.8', '/usr/local/software/master/python/3.8/lib/python3.8/lib-dynload', '/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages', '/home/wnd22/rds/hpc-work/clik_installs/code/planck/code/plc_3.0/plc-3.1/lib/python/site-packages', '/home/wnd22/rds/hpc-work/clik_installs/code/planck/code/plc_3.0/plc-3.1/lib/python/site-packages']
+chi_eff_sq=449431.7466627054
+chi_eff_sq=23544.75343804018
+CosmoComputationError
+chi_eff_sq=119772.7527891857
+chi_eff_sq=62544.10501503643
+CosmoComputationError
+chi_eff_sq=9182.295633267117
+chi_eff_sq=180856.2770986262
+chi_eff_sq=140501.20059944334
+chi_eff_sq=72369.0728645857
+chi_eff_sq=43288.35514253144
+CosmoComputationError
+chi_eff_sq=59784.68314929995
+chi_eff_sq=63902.34344996751
+chi_eff_sq=14998.308238015954
+chi_eff_sq=35185.06546767347
+chi_eff_sq=134947.8024124826
+chi_eff_sq=21974.864880104866
+chi_eff_sq=70011.68950891573
+chi_eff_sq=141466.50953058497
+chi_eff_sq=32859.34339486035
+chi_eff_sq=504574.40083510295
+chi_eff_sq=19410.849738544148
+chi_eff_sq=107952.52030717711
+chi_eff_sq=25808.60224579662
+chi_eff_sq=47829.406262257275
+chi_eff_sq=59451.54835518554
+chi_eff_sq=160195.44812074737
+chi_eff_sq=108694.29512481381
+chi_eff_sq=55264.13358326636
+chi_eff_sq=2e+30
+chi_eff_sq=67007.91177955426
+chi_eff_sq=36149.81271715768
+chi_eff_sq=49279.54067619603
+chi_eff_sq=305512.10085685697
+chi_eff_sq=96578.02646867099
+chi_eff_sq=417048.3284652587
+chi_eff_sq=43648.33656199735
+chi_eff_sq=78295.29140099933
+chi_eff_sq=350913.37713506987
+chi_eff_sq=50289.014158992126
+chi_eff_sq=17541.47182948559
+chi_eff_sq=9696.311138186398
+chi_eff_sq=36043.666038661344
+chi_eff_sq=54437.60115163875
+chi_eff_sq=129945.84373091582
+chi_eff_sq=45173.80809497789
+chi_eff_sq=65209.92651834431
+chi_eff_sq=861074.5350425156
+chi_eff_sq=81623.8395492011
+chi_eff_sq=81569.53885786248
+chi_eff_sq=902228.6602128334
+chi_eff_sq=65843.7369496781
+chi_eff_sq=464388.65408539394
+chi_eff_sq=35680.41936511452
+chi_eff_sq=160032.1658444987
+chi_eff_sq=95684.6052447912
+chi_eff_sq=793130.19252873
+chi_eff_sq=797812.035354739
+chi_eff_sq=39749.735890212025
+chi_eff_sq=36241.21760068239
+CosmoComputationError
+chi_eff_sq=972783.9742655822
+chi_eff_sq=740022.3748417998
+chi_eff_sq=805624.7254485001
+chi_eff_sq=219023.97743098298
+chi_eff_sq=91397.50263281401
+chi_eff_sq=857344.53503163
+chi_eff_sq=186201.1226149903
+chi_eff_sq=207758.38602792541
+chi_eff_sq=847463.4186883406
+chi_eff_sq=353006.5092105155
+chi_eff_sq=34983.845551286824
+chi_eff_sq=36919.79355725046
+chi_eff_sq=84322.12841803177
+chi_eff_sq=717722.8115032762
+chi_eff_sq=219097.0329525164
+chi_eff_sq=27292.569454999782
+chi_eff_sq=35598.31860368281
+chi_eff_sq=442913.46566088044
+chi_eff_sq=1018297.7033057997
+chi_eff_sq=556634.2773167399
+chi_eff_sq=1016523.0506484166
+chi_eff_sq=22570.40282634404
+chi_eff_sq=600355.5580828906
+chi_eff_sq=638567.7562684213
+chi_eff_sq=83660.58090450685
+chi_eff_sq=597817.7525218654
+chi_eff_sq=168238.15368906784
+chi_eff_sq=84457.66616471508
+chi_eff_sq=74920.00225439473
+chi_eff_sq=592131.6508058434
+chi_eff_sq=202368.49568687842
+chi_eff_sq=61740.29954205174
+chi_eff_sq=22468.61398723766
+chi_eff_sq=80581.6435953922
+chi_eff_sq=31223.667073703244
+chi_eff_sq=370260.9298806574
+chi_eff_sq=134415.0896624212
+CosmoComputationError
+chi_eff_sq=603755.5818438467
+chi_eff_sq=397072.40555974544
+chi_eff_sq=761274.7546835949
+chi_eff_sq=729061.6440260477
+chi_eff_sq=68149.98558728486
+chi_eff_sq=80040.0229893746
+chi_eff_sq=720526.8526047223
+chi_eff_sq=27454.017067178436
+chi_eff_sq=533419.2201474712
+chi_eff_sq=12400.741218635196
+chi_eff_sq=592225.9588454934
+chi_eff_sq=606534.7453742452
+chi_eff_sq=25192.283837310202
+chi_eff_sq=786886.8008465423
+chi_eff_sq=496698.2030099291
+chi_eff_sq=583321.7795428054
+chi_eff_sq=2e+30
+chi_eff_sq=283825.8822746508
+chi_eff_sq=66575.39339561597
+chi_eff_sq=51900.09431461555
+chi_eff_sq=25558.817822153276
+chi_eff_sq=31151.93021086295
+chi_eff_sq=368912.99459019816
+chi_eff_sq=539446.3594718872
+chi_eff_sq=73008.97990931541
+chi_eff_sq=653614.4431992864
+chi_eff_sq=92559.19062350625
+chi_eff_sq=614283.1711752511
+chi_eff_sq=31066.419272317904
+chi_eff_sq=13286.033079290768
+chi_eff_sq=2e+30
+chi_eff_sq=6507.551658686935
+chi_eff_sq=488294.34635512176
+chi_eff_sq=531476.5795641093
+chi_eff_sq=15576.443842107596
+chi_eff_sq=18388.416518190377
+chi_eff_sq=441488.7423452406
+chi_eff_sq=73103.43088610539
+chi_eff_sq=723503.3111060829
+chi_eff_sq=611231.350000545
+chi_eff_sq=39297.53361520188
+chi_eff_sq=467353.62581856677
+chi_eff_sq=508454.29119766003
+chi_eff_sq=13210.55093725594
+chi_eff_sq=571125.973659738
+chi_eff_sq=2e+30
+chi_eff_sq=666100.4491836737
+chi_eff_sq=814880.7343152574
+chi_eff_sq=70180.34707274706
+chi_eff_sq=29670.106286252445
+chi_eff_sq=87697.73827974818
+chi_eff_sq=226890.2761107004
+chi_eff_sq=30498.78509396004
+chi_eff_sq=2e+30
+chi_eff_sq=110730.18087487486
+chi_eff_sq=556489.9773255184
+chi_eff_sq=137839.8975650436
+chi_eff_sq=48023.69766717807
+chi_eff_sq=7923.738819496225
+CosmoComputationError
+chi_eff_sq=365706.5713744257
+chi_eff_sq=766468.6167732211
+chi_eff_sq=624924.355001123
+chi_eff_sq=13325.598668145774
+chi_eff_sq=249930.71015321484
+chi_eff_sq=317941.8219971982
+chi_eff_sq=274049.69929260085
+chi_eff_sq=264052.385816803
+chi_eff_sq=273331.8646327708
+chi_eff_sq=20605.779937598978
+chi_eff_sq=140887.9678032552
+chi_eff_sq=381032.85254104855
+chi_eff_sq=6576.424955622136
+chi_eff_sq=669327.4476543451
+chi_eff_sq=630864.1263868621
+chi_eff_sq=294887.338700573
+chi_eff_sq=94052.71368630996
+chi_eff_sq=266984.1042307375
+chi_eff_sq=195298.8308033734
+chi_eff_sq=232783.67597717943
+chi_eff_sq=16463.79913322724
+chi_eff_sq=188195.28717968863
+chi_eff_sq=239016.652667253
+chi_eff_sq=213804.658804324
+chi_eff_sq=215849.53975777922
+chi_eff_sq=236634.98170620427
+chi_eff_sq=224028.74426001206
+chi_eff_sq=223705.9871366643
+chi_eff_sq=222675.1701329543
+chi_eff_sq=221380.73341589066
+chi_eff_sq=526063.8459598414
+chi_eff_sq=219245.78652494002
+chi_eff_sq=233747.56674166908
+chi_eff_sq=219555.22010823383
+chi_eff_sq=220738.29342620357
+chi_eff_sq=220370.37574612457
+chi_eff_sq=220616.6590004382
+chi_eff_sq=220572.64990788585
+chi_eff_sq=220405.80231144442
+chi_eff_sq=220435.18456330916
+chi_eff_sq=441487.73082556546
+chi_eff_sq=441487.5737753882
+chi_eff_sq=441531.75683815766
+chi_eff_sq=220456.5178268326
+chi_eff_sq=220501.63880451355
+chi_eff_sq=220471.48565279384
+chi_eff_sq=220448.24411341734
+chi_eff_sq=220446.6385676761
+chi_eff_sq=220467.72105876348
+chi_eff_sq=220446.61592899653
+chi_eff_sq=220410.8526589343
+chi_eff_sq=220389.55635327706
+chi_eff_sq=220387.69996432643
+chi_eff_sq=220391.67202913496
+chi_eff_sq=220472.96778801995
+chi_eff_sq=220474.87159772258
+chi_eff_sq=220486.67871100703
+chi_eff_sq=220539.36106916063
+chi_eff_sq=220495.28327899662
+chi_eff_sq=220465.80559562764
+chi_eff_sq=220398.20696804463
+chi_eff_sq=220419.11920652247
+chi_eff_sq=220379.7093611871
+chi_eff_sq=441482.46996117214
+chi_eff_sq=220419.63789932203
+chi_eff_sq=220445.72707107858
+chi_eff_sq=220363.58965003
+chi_eff_sq=220408.11818456897
+chi_eff_sq=220349.9458346207
+chi_eff_sq=220394.0510484755
+chi_eff_sq=220456.29097530086
+chi_eff_sq=220483.8059097782
+chi_eff_sq=220471.63795396077
+chi_eff_sq=220520.90216531671
+chi_eff_sq=220415.1523039933
+chi_eff_sq=220346.31094142157
+chi_eff_sq=220426.1632698971
+chi_eff_sq=220420.61793167755
+chi_eff_sq=220457.2472931804
+chi_eff_sq=233791.49127693588
+chi_eff_sq=220454.03100530652
+chi_eff_sq=220420.25495133252
+chi_eff_sq=220346.19937498882
+chi_eff_sq=220351.15346986617
+chi_eff_sq=220465.8866037274
+chi_eff_sq=220463.18986955768
+chi_eff_sq=220436.95223039496
+chi_eff_sq=220421.8131171999
+chi_eff_sq=441423.8476107138
+chi_eff_sq=441422.3449724114
+chi_eff_sq=220467.55910493017
+chi_eff_sq=220482.27370612774
+chi_eff_sq=220435.1111450893
+chi_eff_sq=220422.81129263894
+chi_eff_sq=220420.1724189506
+chi_eff_sq=220527.269815603
+chi_eff_sq=220410.2760164764
+chi_eff_sq=220494.9569471191
+chi_eff_sq=220410.2760164764Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages/classy.cpython-38-x86_64-linux-gnu.so
+['/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages', '/home/wnd22/rds/hpc-work/env_/lib/python3.8/site-packages/class_public', '/rds/user/wnd22/hpc-work/Will_solve_b/Polychord_solveb', '/usr/local/software/master/python/3.8/lib/python38.zip', '/usr/local/software/master/python/3.8/lib/python3.8', '/usr/local/software/master/python/3.8/lib/python3.8/lib-dynload', '/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages', '/home/wnd22/rds/hpc-work/clik_installs/code/planck/code/plc_3.0/plc-3.1/lib/python/site-packages', '/home/wnd22/rds/hpc-work/clik_installs/code/planck/code/plc_3.0/plc-3.1/lib/python/site-packages']
+chi_eff_sq=492185.7162846252
+chi_eff_sq=2e+30
+chi_eff_sq=146203.8094697314
+chi_eff_sq=412792.7295477023
+chi_eff_sq=216947.6817024339
+chi_eff_sq=83075.28485767978
+chi_eff_sq=50981.21504281937
+chi_eff_sq=42269.715948996054
+chi_eff_sq=147798.16993074195
+chi_eff_sq=106851.92274308219
+chi_eff_sq=26813.34017249475
+chi_eff_sq=131532.55955804308
+chi_eff_sq=85434.25088433268
+chi_eff_sq=152625.1338417985
+chi_eff_sq=168678.20246320148
+chi_eff_sq=37580.31561956737
+chi_eff_sq=18652.170960301464
+chi_eff_sq=86187.74695862604
+chi_eff_sq=46796.53939418586
+chi_eff_sq=18825.389237984462
+chi_eff_sq=145782.0362057571
+chi_eff_sq=33149.9780720195
+chi_eff_sq=18175.56775509169
+chi_eff_sq=458189.19860932184
+chi_eff_sq=111890.99325162696
+chi_eff_sq=27554.329841477076
+chi_eff_sq=16756.581760318655
+chi_eff_sq=499252.2759049743
+chi_eff_sq=95736.53907579668
+chi_eff_sq=160521.97392313005
+chi_eff_sq=232311.17645646757
+chi_eff_sq=111004.91148890954
+chi_eff_sq=84074.5933046848
+chi_eff_sq=120378.60007557242
+chi_eff_sq=135046.0191566784
+chi_eff_sq=495376.7051716193
+chi_eff_sq=508057.9019047186
+chi_eff_sq=86412.9633985735
+chi_eff_sq=542206.06029155
+chi_eff_sq=349296.7047462511
+chi_eff_sq=595626.1689528776
+chi_eff_sq=91669.5289151756
+chi_eff_sq=107857.17258085053
+chi_eff_sq=315894.90646491427
+chi_eff_sq=589114.2830678645
+chi_eff_sq=87215.42214203012
+chi_eff_sq=496881.5910314547
+chi_eff_sq=532237.7051167294
+chi_eff_sq=505055.7654308698
+chi_eff_sq=127560.86557070231
+chi_eff_sq=532518.4988857784
+chi_eff_sq=83768.53038834893
+chi_eff_sq=143590.40271173452
+chi_eff_sq=620135.8851879508
+chi_eff_sq=435942.28729971923
+chi_eff_sq=584556.5877873857
+chi_eff_sq=584247.6147912703
+chi_eff_sq=554588.7975713348
+chi_eff_sq=629640.9850232177
+chi_eff_sq=96785.86652056941
+chi_eff_sq=585545.0714619906
+chi_eff_sq=506630.8318614863
+chi_eff_sq=62433.61792730295
+chi_eff_sq=464093.5106489198
+chi_eff_sq=317915.95744583826
+chi_eff_sq=287645.1982455714
+chi_eff_sq=308006.77394985
+chi_eff_sq=86871.2570954455
+chi_eff_sq=494271.14102233795
+chi_eff_sq=102955.91689311864
+chi_eff_sq=265407.8451026444
+chi_eff_sq=292927.58616179746
+chi_eff_sq=311097.10084186
+chi_eff_sq=296576.0559790873
+chi_eff_sq=306999.2273328018
+chi_eff_sq=297561.99136822677
+chi_eff_sq=84152.07036782711
+chi_eff_sq=584558.1568557423
+chi_eff_sq=500256.8142141673
+chi_eff_sq=213077.67293783554
+chi_eff_sq=285663.98520105495
+chi_eff_sq=296263.9905575738
+chi_eff_sq=373587.2125938912
+chi_eff_sq=486563.5720891591
+chi_eff_sq=305405.76255736605
+chi_eff_sq=299013.3572989992
+chi_eff_sq=299154.35408306995
+chi_eff_sq=305411.73296284885
+chi_eff_sq=84105.22910726519
+chi_eff_sq=285169.2772824059
+chi_eff_sq=421336.5305651586
+chi_eff_sq=297054.6097868145
+chi_eff_sq=317047.44975157076
+chi_eff_sq=312716.1298056918
+chi_eff_sq=298478.5892852862
+chi_eff_sq=84064.72335843835
+CosmoComputationError
+chi_eff_sq=26016.280154548007
+chi_eff_sq=44044.98408454912
+chi_eff_sq=171264.83468979524
+chi_eff_sq=33622.59450184566
+chi_eff_sq=40118.36622012143
+chi_eff_sq=33976.53475549566
+chi_eff_sq=151782.4174412481
+chi_eff_sq=34990.75264607712
+chi_eff_sq=58525.82088215743
+chi_eff_sq=22544.844527325087
+chi_eff_sq=182432.78610682252
+chi_eff_sq=43868.719958980626
+chi_eff_sq=332609.1326822428
+chi_eff_sq=525509.3424905956
+chi_eff_sq=62740.22424069412
+chi_eff_sq=45551.80773656623
+chi_eff_sq=571969.9483684604
+chi_eff_sq=58186.16711692983
+chi_eff_sq=169507.57627163344
+chi_eff_sq=57858.49750734922
+chi_eff_sq=79579.17728286107
+chi_eff_sq=191172.24614210145
+chi_eff_sq=49757.19444178244
+chi_eff_sq=115644.59537877217
+chi_eff_sq=43343.44964289223
+chi_eff_sq=59497.90846936252
+chi_eff_sq=74545.05194358219
+chi_eff_sq=56073.57058142738
+chi_eff_sq=119294.73297241355
+chi_eff_sq=374002.59269535984
+chi_eff_sq=190396.13217954637
+chi_eff_sq=120411.8091897387
+chi_eff_sq=450502.6881559426
+chi_eff_sq=99121.2752907564
+chi_eff_sq=83277.15238074593
+chi_eff_sq=44081.19774795284
+chi_eff_sq=128202.55486004268
+chi_eff_sq=207077.23984932565
+chi_eff_sq=229470.4152618972
+chi_eff_sq=107852.59752725066
+chi_eff_sq=50849.30020167287
+chi_eff_sq=77663.55501789109
+chi_eff_sq=270843.5077922296
+chi_eff_sq=50777.248120616336
+chi_eff_sq=328898.5789704253
+chi_eff_sq=190350.21175859406
+chi_eff_sq=58714.36968806602
+chi_eff_sq=59483.05119560603
+chi_eff_sq=325594.08108272613
+chi_eff_sq=41363.05562153732
+chi_eff_sq=50209.48052015754
+chi_eff_sq=139697.44514991646
+chi_eff_sq=173545.2269940007
+chi_eff_sq=52174.28979258367
+chi_eff_sq=432898.53016244207
+chi_eff_sq=193267.8572000908
+chi_eff_sq=82142.19411881354
+chi_eff_sq=118663.62387295796
+chi_eff_sq=46811.44737926366
+CosmoComputationError
+chi_eff_sq=47093.63065751886
+chi_eff_sq=190159.81016915728
+chi_eff_sq=258453.22838154645
+chi_eff_sq=283423.5865344353
+chi_eff_sq=92035.39114866503
+chi_eff_sq=178456.1533085072
+chi_eff_sq=190393.5444329966
+chi_eff_sq=329984.88508029137
+chi_eff_sq=2e+30
+chi_eff_sq=2e+30
+chi_eff_sq=50764.14778994438
+chi_eff_sq=190305.46258938982
+chi_eff_sq=190231.6018747742
+chi_eff_sq=41801.06916892317
+chi_eff_sq=2e+30
+chi_eff_sq=284161.5786296149
+chi_eff_sq=396432.77771051024
+chi_eff_sq=488484.44119842787
+chi_eff_sq=230581.8249643332
+chi_eff_sq=199152.8105413747
+chi_eff_sq=42715.1842758913
+chi_eff_sq=373352.7701399653
+chi_eff_sq=45314.28762408033
+chi_eff_sq=323419.77548452595
+chi_eff_sq=113660.57929462408
+chi_eff_sq=211096.53124597762
+chi_eff_sq=196141.57253524166
+chi_eff_sq=164625.41768247687
+chi_eff_sq=154888.6573727705
+chi_eff_sq=186624.1767565828
+chi_eff_sq=43118.76238840419
+chi_eff_sq=245955.05357183158
+chi_eff_sq=187112.1633671801
+chi_eff_sq=197463.14159046416
+chi_eff_sq=172611.79822616724
+chi_eff_sq=174512.53616510986
+chi_eff_sq=413812.6200864085
+chi_eff_sq=344755.0912957567
+chi_eff_sq=42183.64219887746
+chi_eff_sq=39117.40481546043
+chi_eff_sq=341880.43493336876
+chi_eff_sq=190970.8918318999
+chi_eff_sq=186703.3335348894
+chi_eff_sq=344244.7424102268
+chi_eff_sq=190869.24528389238
+chi_eff_sq=189670.76842666866
+chi_eff_sq=179295.28859577273
+chi_eff_sq=188525.0780708847
+chi_eff_sq=189082.32511183678
+chi_eff_sq=179240.64530191515
+chi_eff_sq=189314.63473913804
+chi_eff_sq=188881.26169244398
+chi_eff_sq=189039.04208877523
+chi_eff_sq=188709.25343173058
+chi_eff_sq=188897.6919820706
+chi_eff_sq=189109.8818162281
+chi_eff_sq=189282.92984489875
+chi_eff_sq=189101.28317976833
+chi_eff_sq=189012.09315538823
+chi_eff_sq=344997.23470186756
+chi_eff_sq=189181.29480297415
+chi_eff_sq=188982.91538638092
+chi_eff_sq=188966.121336681
+chi_eff_sq=189149.71051326694
+chi_eff_sq=189051.34303148292
+chi_eff_sq=189288.67634612208
+chi_eff_sq=345038.99510355404
+chi_eff_sq=189313.8485930031
+chi_eff_sq=189437.96295810782
+chi_eff_sq=188824.78545803175
+chi_eff_sq=179268.44186322947
+chi_eff_sq=189114.21633114511
+chi_eff_sq=189289.57030345933
+chi_eff_sq=345011.73899765883
+chi_eff_sq=189113.9765441328
+chi_eff_sq=189153.16028045936
+chi_eff_sq=179236.10761272445
+chi_eff_sq=189132.32554923074
+chi_eff_sq=189032.42218954262
+chi_eff_sq=189053.28044801965
+chi_eff_sq=345011.96426728193
+chi_eff_sq=189070.7716907651
+chi_eff_sq=189218.94054215692
+chi_eff_sq=189123.90174040053
+chi_eff_sq=189117.15350274416
+chi_eff_sq=188736.37423458308
+chi_eff_sq=188759.42361436054
+chi_eff_sq=121287.34221561898
+chi_eff_sq=188793.3142330484
+chi_eff_sq=189092.22277422357
+chi_eff_sq=189010.10425222927
+chi_eff_sq=179230.7614206882
+chi_eff_sq=188880.19982047248
+chi_eff_sq=189027.58153158112
+chi_eff_sq=189262.37589039197
+chi_eff_sq=189187.00587683378
+chi_eff_sq=189183.92640078542
+chi_eff_sq=188919.124355165
+chi_eff_sq=189273.21395378135
+chi_eff_sq=344992.08005924005Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 10000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 15000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+Polychord Warning: Non deterministic loglikelihood
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Warning: the solver took 5000 steps, and may take a while to converge.
+Warning: the step acceptance ratio is below 5%, the solver may take a while to converge.
+Polychord Warning: Non deterministic loglikelihood
+slurmstepd: error: *** JOB 18405559 ON cpu-p-40 CANCELLED AT 2023-04-26T23:04:44 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 18405559.0 ON cpu-p-40 CANCELLED AT 2023-04-26T23:04:44 DUE TO TIME LIMIT ***
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 154537 RUNNING AT cpu-p-40
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 1 PID 154538 RUNNING AT cpu-p-40
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 2 PID 154539 RUNNING AT cpu-p-40
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 3 PID 154540 RUNNING AT cpu-p-40
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 4 PID 154541 RUNNING AT cpu-p-40
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 5 PID 154542 RUNNING AT cpu-p-40
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 6 PID 154543 RUNNING AT cpu-p-40
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+srun: Job step aborted: Waiting up to 122 seconds for job step to finish.

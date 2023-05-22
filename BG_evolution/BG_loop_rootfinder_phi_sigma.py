@@ -1,4 +1,4 @@
-##### Goal of this code: Find phi_0 and sigma by two coupled root-finders
+##### Goal of this code: Find phi_0 and sigma by two coupled root-finders 
 
 import numpy as np
 import math

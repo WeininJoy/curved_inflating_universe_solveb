@@ -1,4 +1,5 @@
-##### Goal of this code: Find phi_0 and sigma by one root-finder
+######## Goal: generate PPS and CMB by (1) BG variables depends N_end,
+########       (2) apply actual numerical b solution to set quantum IC
 import sys
 sys.path
 sys.path.append('/home/weinin/miniconda3/lib/python3.8/site-packages/class_public')

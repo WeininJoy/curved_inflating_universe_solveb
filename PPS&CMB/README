@@ -1,0 +1,20 @@
+Goal: generate PPS and CMB of the new model (with b). 
+
+###########
+# Code:
+###########
+
+1. generate_stb_omegak_AsfoH_perm_logA_Ns_logfi_ok__H0.py: code from Lukas 
+   (finite_inflation_curved_space_data) to generate PPS using modified primpy (add b). 
+2. PPS_Lukas.py: generate PPS following Lukas method [2205.07374] (1) BG evolution based on N_end, 
+   (2) set quantum IC by flat RSET
+3. PPS_weinin.py: generate PPS and CMB by (1) BG variables depends N_end,
+   (2) apply actual numerical b solution to set quantum IC
+4. PPS&CMB_will_b.py: generate PPS and CMB by (1) BG variables depends on ns (rather than N_end or N_star),
+   (2) apply actual numerical b solution to set quantum IC
+   Based on PPS&CMB_willworks.py
+5. PPS&CMB_willworks.py: generate PPS and CMB by (1) BG variables depends on ns (rather than N_end or N_star),
+   (2) apply Mary's quantum IC [2211.17248]
+   Used to make the PPS & CMB plot in [2211.17248]. Based on willworks_origin.py
+5. willworks_origin.py: generate PPS&CMB based on Mary's paper [2211.17248]
+   Given by Will Handley in 2023/2

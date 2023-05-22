@@ -1,0 +1,18 @@
+Goal: calculate likelihood by comparing with Planck 2018 data and CMB prediction. Derive chi_eff. And find best-fit parameter by minimizing chi_eff.
+
+###########
+# Code:
+###########
+
+1. k_plane_fromWill.py: the original code given by Will for calculating Planck likelihood.
+2. chi_eff_from_likelihood.py: a part of code for calculating Planck likelihood, and then calculate chi_eff_sq based on it. 
+3. Find_bestfit_parameters: find best-fit parameter set by minimizing chi_eff_sq (by scipy.optimize).
+4. simplex.txt: initial simplex guess for scipy.optimize.minimize(method='Nelder-Mead')
+
+
+###########
+# Folder:
+###########
+
+1. packages: save Planck 2018 code and data 
+2. w_params_best-fit: figures for parameters-chi_eff

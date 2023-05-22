@@ -1,4 +1,5 @@
 ##### Goal of this code: Find exact constant of analytic solutions of b numerically by connection solutions starting from KD and deep inflation (K=1)
+#####   Solve both A and B
 
 import numpy as np
 import matplotlib.pyplot as plt

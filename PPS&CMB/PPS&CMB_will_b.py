@@ -1,3 +1,6 @@
+######## Goal: generate PPS and CMB by (1) BG variables depends on ns (rather than N_end or N_star),
+########       (2) apply actual numerical b solution to set quantum IC
+######## Based on PPS&CMB_willworks.py
 import sys
 sys.path.append('/home/weinin/miniconda3/lib/python3.8/site-packages/class_public')
 import classy

@@ -1,4 +1,4 @@
-##### Goal of this code: Solve and plot Primordial power spectrum (PPS)
+##### Goal: generate PPS following Lukas method [2205.07374] (1) BG evolution based on N_end, (2) set quantum IC by flat RSET
 
 import numpy as np
 import math

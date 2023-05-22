@@ -1,4 +1,5 @@
 ##### Goal of this code: get approximated constants of analytic solutions of 'b' in KD and deep inflation (K=-1)
+#####    Guess A and solve B
 
 import numpy as np
 import matplotlib.pyplot as plt

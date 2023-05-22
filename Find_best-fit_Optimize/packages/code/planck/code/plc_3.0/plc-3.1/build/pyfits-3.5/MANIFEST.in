@@ -1,0 +1,11 @@
+include ez_setup.py
+include setup_hooks.py
+include *.txt *.ini
+recursive-include docs *
+recursive-include cextern README *.*
+recursive-include src *.c *.h
+recursive-include pyfits/tests/data *.fits
+recursive-include pyfits/_compat *.py
+
+exclude *.pyc
+prune docs/build

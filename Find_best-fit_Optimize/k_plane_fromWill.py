@@ -1,3 +1,6 @@
+###### Goal: Find the best-fit parameter set of lambdaCDM by comparing Planck observation data.
+###### Method: Calculate Planck Likelihood, and use scipy.optimize() to find its maximum (or min chi_eff_sq)
+###### Origin: This is original code given by Will Handley in 2023_2
 import os
 import sys
 import numpy as np
@@ -35,7 +38,7 @@ class PlanckLikelihood(object):
             if like is self.lensing:
                 order = ['pp'] + order
             
-            # print(order,len(lmaxes),len(order))
+            #ï¿½print(order,len(lmaxes),len(order))
             for spec, lmax in zip(order, lmaxes):
                 if lmax>-1:
                     if spec == 'pp':

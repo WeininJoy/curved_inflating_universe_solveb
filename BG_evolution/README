@@ -1,0 +1,12 @@
+Goal: calfulate evolution of background variables (N, phi, b) based on 
+      Lukas [2205.07374] and Mary [2211.17248]'s paper.
+
+###########
+# Code:
+###########
+1. BG_1rootfinder_phi_sigma.py: Find phi_0 and sigma by one root-finder
+2. BG_loop_rootfinder_phi_sigma.py: Find phi_0 and sigma by two coupled root-finders 
+3. BG_plot_manyLines_Nend.py: plot the result of BG variables with different K, N_0 and sigma
+4. find_phi_Nstar.py: Find the phi_0 corresponds to N_star_constant
+5. Important_constant.py: important cosmological constants used in these codes
+6. plot_Horizon_manyLines: Plot the result of Hubble Horizon evolution with different K and N_0

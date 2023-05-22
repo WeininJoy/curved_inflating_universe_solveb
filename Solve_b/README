@@ -1,0 +1,16 @@
+Goal: solve variable b analytically in KD and deep inflation. Use the solution to set IC in both end to get the numerical solutions, and try to find the unknown  constants in analytical solution by matching the two numerical solutions in the middle. 
+
+###########
+# Code:
+###########
+
+1. solve_b_anal_IC_K_minus1.py: find approximated constants of analytic solutions of 'b' in KD and deep inflation (K=-1)
+        Guess A and solve B.
+2. solve_b_anal_IC_K_minus1.py: find approximated constants of analytic solutions of 'b' in KD and deep inflation (K=1)
+        Guess A and solve B.
+3. solve_b_total_b_K_minus1.py: Find exact constant of analytic solutions of b numerically by connection solutions starting from KD and deep inflation (K=-1).
+        Solve both A and B.
+4. solve_b_total_b_K1.py: Find exact constant of analytic solutions of b numerically by connection solutions starting from KD and deep inflation (K=1).
+        Solve both A and B.
+5. solve_b_total_X_K1.py: solve the ODE of X (=b/a) to get b (the code may be more stable).
+        Solve both A and B

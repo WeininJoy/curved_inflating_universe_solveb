@@ -1,4 +1,5 @@
 ##### Goal of this code: Find the phi_0 according to a N_star_constant
+##### Note: N_star means the N value when ks=0.05Mpc^-1 pass the Hubble Horizon
 
 import numpy as np
 import math

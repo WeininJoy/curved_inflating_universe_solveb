@@ -1,0 +1,13 @@
+Goal: The original primpy is based on [2205.07374], which apply flat RSET. We would like to modify
+    it for curved RSET based on equations in [2211.17248] and my own work on solving new variable b.
+
+###########
+# Code:
+###########
+
+1. events.py: modify primpy/events.py by adding new event -- SlowRowEvent
+2. ic_rst_b.py: generate quantum IC of R (comoving curvature perturbation) by solving b
+3. inflation.py: modify primpy/time/inflation.py by adding new variable b
+4. perturbations.py: modify primpy/time/perturbations.py by setting new quantum IC (based on b)
+5. test_b_evol.py: test the evolution of variable 
+6. test_newIC_solveb.py: test the new quantum IC based on b

@@ -1,3 +1,7 @@
+######## Goal: generate PPS and CMB by (1) BG variables depends on ns (rather than N_end or N_star),
+########       (2) apply Mary's quantum IC [2211.17248]
+########       Used to make the PPS & CMB plot in [2211.17248]
+
 import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib import gridspec
