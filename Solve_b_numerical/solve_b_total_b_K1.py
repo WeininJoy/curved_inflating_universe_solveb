@@ -266,7 +266,7 @@ for i in range(len(t_tot)):
     #log_b.append(np.log(sol_tot[4][i]))
     log_b.append(np.log(sol_tot[5][i])+ sol_tot[1][i])
 """
-
+"""
 # plot solution of BG variables
 #plt.plot(sol_inf.t, sol_inf.y[1], label='a_for')
 #plt.plot(sol_KD.t, sol_KD.y[1], label='a_back')
@@ -293,3 +293,4 @@ plt.ylabel('log(a)&log(b)')
 plt.title('t - log(a)&log(b)')
 plt.legend()
 plt.show()
+"""

@@ -10,16 +10,16 @@
 
 #! sbatch directives begin here ###############################
 #! Name of the job:
-#SBATCH -J Polychord_solveb
+#SBATCH -J plot_anesthetic
 #! Which project should be charged:
-#SBATCH -A DIRAC-DP192-CPU
+#SBATCH -A HANDLEY-SL3-CPU
 #SBATCH -p cclake
 #! How many whole nodes should be allocated?
-#SBATCH --nodes=4
+#SBATCH --nodes=1
 #! How many (MPI) tasks will there be in total? (<= nodes*56)
 #! The Cascade Lake (cclake) nodes have 56 CPUs (cores) each and
 #! 3420 MiB of memory per CPU.
-#SBATCH --ntasks=224
+#SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #! How much wallclock time will be required?
 #SBATCH --time=12:00:00
@@ -59,7 +59,7 @@ module load rhel7/default-ccl              # REQUIRED - loads the basic environm
 source /home/wnd22/rds/hpc-work/env_$1/bin/activate
 which python
 #! Full path to application executable: 
-application="python Find_bestfit_params_polychord.py"
+application="python plot_anesthetic_2D.py"
 #application="python /home/wnd22/PolyChordLite/run_pypolychord.py"
 
 #! Run options for the application:
@@ -92,11 +92,11 @@ export I_MPI_PIN_ORDER=scatter # Adjacent domains have minimal sharing of caches
 #! Uncomment one choice for CMD below (add mpirun/mpiexec options if necessary):
 
 #! Choose this for a MPI code (possibly using OpenMP) using Intel MPI.
-CMD="mpirun -ppn $mpi_tasks_per_node -np $np $application $options"
+#CMD="mpirun -ppn $mpi_tasks_per_node -np $np $application $options"
 
 #! Choose this for a pure shared-memory OpenMP parallel program on a single node:
 #! (OMP_NUM_THREADS threads will be created):
-#CMD="$application $options"
+CMD="$application $options"
 
 #! Choose this for a MPI code (possibly using OpenMP) using OpenMPI:
 #CMD="mpirun -npernode $mpi_tasks_per_node -np $np $application $options"

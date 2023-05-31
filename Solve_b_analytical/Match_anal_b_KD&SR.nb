@@ -1,0 +1,461 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     18792,        453]
+NotebookOptionsPosition[     17774,        427]
+NotebookOutlinePosition[     18162,        443]
+CellTagsIndexPosition[     18119,        440]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"LogPlot", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Piecewise", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            SqrtBox[
+             RowBox[{"Sin", "[", 
+              RowBox[{"2", "\[Eta]"}], "]"}]], ",", 
+            RowBox[{"0", "<", "\[Eta]", "<", "\[Eta]t"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            FractionBox[
+             SuperscriptBox[
+              RowBox[{"Sin", "[", 
+               RowBox[{"2", "\[Eta]t"}], "]"}], 
+              RowBox[{"3", "/", "2"}]], 
+             RowBox[{"Sin", "[", 
+              RowBox[{
+               RowBox[{"3", "\[Eta]t"}], "-", "\[Eta]"}], "]"}]], ",", 
+            RowBox[{"\[Eta]t", "<", "\[Eta]", "<", 
+             RowBox[{"3", "\[Eta]t"}]}]}], "}"}]}], "}"}], "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Piecewise", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            SqrtBox[
+             RowBox[{"Sinh", "[", 
+              RowBox[{"2", "\[Eta]"}], "]"}]], ",", 
+            RowBox[{"0", "<", "\[Eta]", "<", "\[Eta]t"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            FractionBox[
+             SuperscriptBox[
+              RowBox[{"Sinh", "[", 
+               RowBox[{"2", "\[Eta]t"}], "]"}], 
+              RowBox[{"3", "/", "2"}]], 
+             RowBox[{"Sinh", "[", 
+              RowBox[{
+               RowBox[{"3", "\[Eta]t"}], "-", "\[Eta]"}], "]"}]], ",", 
+            RowBox[{"\[Eta]t", "<", "\[Eta]", "<", 
+             RowBox[{"3", "\[Eta]t"}]}]}], "}"}]}], "}"}], "]"}], ","}], 
+      "\[IndentingNewLine]", "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"\[Eta]", ",", "0", ",", 
+       RowBox[{"3", "\[Eta]t"}]}], "}"}]}], "\[IndentingNewLine]", "]"}], ",",
+    "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Eta]t", ",", 
+       FractionBox["\[Pi]", "4"]}], "}"}], ",", "0", ",", 
+     FractionBox["\[Pi]", "2"]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.879507781450633*^9, 3.879507789078424*^9}, {
+  3.879507839944571*^9, 3.879507995839356*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"eedde80e-b1cb-4bd6-81a6-d885f77482d7"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`\[Eta]t$$ = 0.6817256058289851, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`\[Eta]t$$], Rational[1, 4] Pi}, 0, Rational[1, 2] 
+      Pi}}, Typeset`size$$ = {360., {112., 117.06742993164409`}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`\[Eta]t$$ = Rational[1, 4] Pi}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> LogPlot[{
+         Piecewise[{{
+            Sqrt[
+             Sin[2 $CellContext`\[Eta]]], 
+            0 < $CellContext`\[Eta] < $CellContext`\[Eta]t$$}, {
+           Sin[2 $CellContext`\[Eta]t$$]^(3/2)/Sin[
+            3 $CellContext`\[Eta]t$$ - $CellContext`\[Eta]], $CellContext`\
+\[Eta]t$$ < $CellContext`\[Eta] < 3 $CellContext`\[Eta]t$$}}], 
+         Piecewise[{{
+            Sqrt[
+             Sinh[2 $CellContext`\[Eta]]], 
+            0 < $CellContext`\[Eta] < $CellContext`\[Eta]t$$}, {
+           Sinh[2 $CellContext`\[Eta]t$$]^(3/2)/Sinh[
+            3 $CellContext`\[Eta]t$$ - $CellContext`\[Eta]], $CellContext`\
+\[Eta]t$$ < $CellContext`\[Eta] < 3 $CellContext`\[Eta]t$$}}], 
+         Null}, {$CellContext`\[Eta], 0, 3 $CellContext`\[Eta]t$$}], 
+      "Specifications" :> {{{$CellContext`\[Eta]t$$, Rational[1, 4] Pi}, 0, 
+         Rational[1, 2] Pi}}, "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{630., {142.63671875, 148.36328125}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.879507922163179*^9, {3.879507955038327*^9, 3.879507996235839*^9}},
+ CellLabel->"Out[6]=",ExpressionUUID->"0557aea9-ad01-4250-b11a-fb0f4c58b0e2"]
+}, Open  ]],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{
+  3.879580916576071*^9},ExpressionUUID->"562e599e-d727-46f4-99ca-\
+fecca0dc2421"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LogPlot", "[", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Piecewise", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+              RowBox[{
+               RowBox[{
+                SqrtBox["2"], " ", 
+                SqrtBox["\[Eta]"]}], "+", 
+               FractionBox[
+                RowBox[{
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{"-", "1"}], "-", 
+                   RowBox[{"48", " ", "A"}], "+", 
+                   RowBox[{"3", " ", "\[Pi]"}], "+", 
+                   RowBox[{"12", " ", 
+                    RowBox[{"Log", "[", "2", "]"}]}], "-", 
+                   RowBox[{"6", " ", 
+                    RowBox[{"Log", "[", "\[Eta]", "]"}]}]}], ")"}], " ", 
+                 SuperscriptBox["\[Eta]", 
+                  RowBox[{"5", "/", "2"}]]}], 
+                RowBox[{"6", " ", 
+                 SqrtBox["2"]}]]}], "/.", 
+              RowBox[{"{", 
+               RowBox[{"A", "->", "0.4"}], "}"}]}], ",", 
+             RowBox[{"0", "<", "\[Eta]", "<", "\[Eta]t"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"C", "/", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"3", "\[Eta]t"}], "-", "\[Eta]"}], ")"}]}], "/.", 
+              RowBox[{"{", 
+               RowBox[{"C", "->", "1.757"}], "}"}]}], ",", 
+             RowBox[{"\[Eta]t", "<", "\[Eta]", "<", 
+              RowBox[{"3", "\[Eta]t"}]}]}], "}"}]}], "}"}], "]"}], ","}], 
+       "\[IndentingNewLine]", "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\[Eta]", ",", "0", ",", 
+        RowBox[{"3", "\[Eta]t"}]}], "}"}]}], "\[IndentingNewLine]", "]"}], 
+    ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"\[Eta]t", ",", 
+        FractionBox["\[Pi]", "4"]}], "}"}], ",", "0", ",", 
+      FractionBox["\[Pi]", "2"]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.879580992848529*^9, 3.879580993125144*^9}, {
+  3.8795810504930487`*^9, 3.879581078139934*^9}, {3.879581116001215*^9, 
+  3.8795811176376*^9}, {3.879581157989552*^9, 3.879581224677435*^9}, {
+  3.879581280625423*^9, 3.879581281002047*^9}, {3.8795813293336477`*^9, 
+  3.879581339451647*^9}},
+ CellLabel->"In[86]:=",ExpressionUUID->"b9ece0c4-314e-4c17-b0e8-f975b6f535a5"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`\[Eta]t$$ = 0.7257079029792423, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`\[Eta]t$$], Rational[1, 4] Pi}, 0, Rational[1, 2] 
+      Pi}}, Typeset`size$$ = {360., {114., 118.5704765356075}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`\[Eta]t$$ = Rational[1, 4] Pi}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> LogPlot[{
+         Piecewise[{{
+            ReplaceAll[
+            Sqrt[2] Sqrt[$CellContext`\[Eta]] + (-1 - 48 $CellContext`A + 
+               3 Pi + 12 Log[2] - 6 
+               Log[$CellContext`\[Eta]]) $CellContext`\[Eta]^(5/2)/(6 
+              Sqrt[2]), {$CellContext`A -> 0.4}], 
+            0 < $CellContext`\[Eta] < $CellContext`\[Eta]t$$}, {
+            ReplaceAll[
+            C/(3 $CellContext`\[Eta]t$$ - $CellContext`\[Eta]), {
+             C -> 1.757}], $CellContext`\[Eta]t$$ < $CellContext`\[Eta] < 
+            3 $CellContext`\[Eta]t$$}}], Null}, {$CellContext`\[Eta], 0, 
+         3 $CellContext`\[Eta]t$$}], 
+      "Specifications" :> {{{$CellContext`\[Eta]t$$, Rational[1, 4] Pi}, 0, 
+         Rational[1, 2] Pi}}, "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{630., {144.13671875, 149.86328125}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.879581282729027*^9, {3.8795813308031597`*^9, 3.87958133988384*^9}},
+ CellLabel->"Out[86]=",ExpressionUUID->"1d9519a3-f928-479f-b4c2-62876af24710"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LogPlot", "[", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Piecewise", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"Re", "[", 
+               RowBox[{
+                FractionBox[
+                 RowBox[{
+                  RowBox[{"(", 
+                   RowBox[{"2", "+", 
+                    RowBox[{"2", " ", "\[ImaginaryI]"}]}], ")"}], " ", 
+                  SuperscriptBox["\[Pi]", "2"], " ", 
+                  SqrtBox["\[Eta]"]}], 
+                 RowBox[{"B", " ", 
+                  SuperscriptBox[
+                   RowBox[{"Gamma", "[", 
+                    RowBox[{"-", 
+                    FractionBox["1", "4"]}], "]"}], "2"]}]], "-", 
+                RowBox[{
+                 FractionBox["1", 
+                  RowBox[{
+                   SuperscriptBox["B", "2"], " ", 
+                   SuperscriptBox[
+                    RowBox[{"Gamma", "[", 
+                    RowBox[{"-", 
+                    FractionBox["1", "4"]}], "]"}], "4"]}]], 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox["8", "3"], "+", 
+                   FractionBox[
+                    RowBox[{"8", " ", "\[ImaginaryI]"}], "3"]}], ")"}], " ", 
+                 SuperscriptBox["\[Pi]", "2"], " ", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{"6", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"-", "1"}], ")"}], 
+                    RowBox[{"1", "/", "4"}]], " ", "A", " ", 
+                    SuperscriptBox["\[Pi]", "2"]}], "-", 
+                   RowBox[{"B", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Gamma", "[", 
+                    FractionBox["3", "4"], "]"}], "2"]}], "+", 
+                   RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"3", "-", 
+                    RowBox[{"3", " ", "\[ImaginaryI]"}]}], ")"}], " ", "B", 
+                    " ", "\[Pi]", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Gamma", "[", 
+                    FractionBox["3", "4"], "]"}], "2"]}], "+", 
+                   RowBox[{"12", " ", "B", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Gamma", "[", 
+                    FractionBox["3", "4"], "]"}], "2"], " ", 
+                    RowBox[{"Log", "[", "2", "]"}]}], "-", 
+                   RowBox[{"6", " ", "B", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Gamma", "[", 
+                    FractionBox["3", "4"], "]"}], "2"], " ", 
+                    RowBox[{"Log", "[", "\[Eta]", "]"}]}]}], ")"}], " ", 
+                 SuperscriptBox["\[Eta]", 
+                  RowBox[{"5", "/", "2"}]]}]}], "]"}], "/.", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"A", "->", "1"}], ",", 
+                RowBox[{"B", "->", "1"}]}], "}"}]}], ",", 
+             RowBox[{"0", "<", "\[Eta]", "<", "\[Eta]t"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"C", "/", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"3", "\[Eta]t"}], "-", "\[Eta]"}], ")"}]}], "/.", 
+              RowBox[{"{", 
+               RowBox[{"C", "->", "0.1"}], "}"}]}], ",", 
+             RowBox[{"\[Eta]t", "<", "\[Eta]", "<", 
+              RowBox[{"3", "\[Eta]t"}]}]}], "}"}]}], "}"}], "]"}], ","}], 
+       "\[IndentingNewLine]", "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\[Eta]", ",", "0", ",", 
+        RowBox[{"3", "\[Eta]t"}]}], "}"}]}], "\[IndentingNewLine]", "]"}], 
+    ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"\[Eta]t", ",", 
+        FractionBox["\[Pi]", "4"]}], "}"}], ",", "0", ",", 
+      FractionBox["\[Pi]", "2"]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8795831116198*^9, 3.879583120404108*^9}, {
+  3.879583175519676*^9, 3.8795832029479303`*^9}, {3.87958324879537*^9, 
+  3.8795832688613167`*^9}, {3.879583322585987*^9, 3.879583333416667*^9}},
+ CellLabel->
+  "In[113]:=",ExpressionUUID->"27172ffb-3d66-436c-bb8e-145c4b54f6a4"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`\[Eta]t$$ = 0.16650441064025903`, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`\[Eta]t$$], Rational[1, 4] Pi}, 0, Rational[1, 2] 
+      Pi}}, Typeset`size$$ = {360., {114., 117.80651407691221`}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`\[Eta]t$$ = Rational[1, 4] Pi}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> LogPlot[{
+         Piecewise[{{
+            ReplaceAll[
+             
+             Re[(2 + 2 I) Pi^2 Sqrt[$CellContext`\[Eta]]/($CellContext`B 
+               Gamma[-(1/4)]^2) - (1/($CellContext`B^2 Gamma[-(1/4)]^4)) (8/3 + 
+               8 I/3) Pi^2 (6 (-1)^(1/4) $CellContext`A Pi^2 - $CellContext`B 
+               Gamma[3/4]^2 + (3 - 3 I) $CellContext`B Pi Gamma[3/4]^2 + 
+               12 $CellContext`B Gamma[3/4]^2 Log[2] - 6 $CellContext`B 
+               Gamma[3/4]^2 
+               Log[$CellContext`\[Eta]]) $CellContext`\[Eta]^(5/
+                2)], {$CellContext`A -> 1, $CellContext`B -> 1}], 
+            0 < $CellContext`\[Eta] < $CellContext`\[Eta]t$$}, {
+            ReplaceAll[
+            C/(3 $CellContext`\[Eta]t$$ - $CellContext`\[Eta]), {
+             C -> 0.1}], $CellContext`\[Eta]t$$ < $CellContext`\[Eta] < 
+            3 $CellContext`\[Eta]t$$}}], Null}, {$CellContext`\[Eta], 0, 
+         3 $CellContext`\[Eta]t$$}], 
+      "Specifications" :> {{{$CellContext`\[Eta]t$$, Rational[1, 4] Pi}, 0, 
+         Rational[1, 2] Pi}}, "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{630., {143.63671875, 149.36328125}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.879583274923766*^9, {3.879583323892124*^9, 3.879583335010572*^9}},
+ CellLabel->
+  "Out[113]=",ExpressionUUID->"2ee70236-f7e7-4a72-a002-569017a163cb"]
+}, Open  ]]
+},
+WindowSize->{924, 501},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
+FrontEndVersion->"13.1 for Linux x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"ce6cf442-2a45-4c48-b115-d32f2b085021"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 2383, 63, 288, "Input",ExpressionUUID->"eedde80e-b1cb-4bd6-81a6-d885f77482d7"],
+Cell[2966, 87, 2508, 50, 310, "Output",ExpressionUUID->"0557aea9-ad01-4250-b11a-fb0f4c58b0e2"]
+}, Open  ]],
+Cell[5489, 140, 147, 3, 52, "Input",ExpressionUUID->"562e599e-d727-46f4-99ca-fecca0dc2421"],
+Cell[CellGroupData[{
+Cell[5661, 147, 2563, 63, 279, "Input",ExpressionUUID->"b9ece0c4-314e-4c17-b0e8-f975b6f535a5"],
+Cell[8227, 212, 2377, 47, 313, "Output",ExpressionUUID->"1d9519a3-f928-479f-b4c2-62876af24710"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10641, 264, 4410, 105, 350, "Input",ExpressionUUID->"27172ffb-3d66-436c-bb8e-145c4b54f6a4"],
+Cell[15054, 371, 2704, 53, 348, "Output",ExpressionUUID->"2ee70236-f7e7-4a72-a002-569017a163cb"]
+}, Open  ]]
+}
+]
+*)
+

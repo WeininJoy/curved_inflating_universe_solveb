@@ -52,7 +52,9 @@ c = 2.99792458 * 10 ** 5  # Speed of light in km/s
 w_value = -0.999
 comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
-dat_name = 'PPS_w='+str(w_value)+'_rank='+str(rank)+'.dat' # rank of the MPI process 
+if not os.path.exists('PPS'):
+    os.makedirs('PPS')
+dat_name = './PPS/PPS_w='+str(w_value)+'_rank='+str(rank)+'.dat' # rank of the MPI process 
 ############
 
 
@@ -154,9 +156,7 @@ def PPS_dat(params):
         for i in range(100):
             ic = ISIC_NsOk(eq, Omega_Ki=Omega_Ki, N_star=N_star, Omega_K0=Omega_K0, h=h, phi_i_bracket=[phi_star+i*1e-12, 9+phi_add], t_i=t_i, eta_i=0)
             try:
-                print("about to solve",flush=True) 
                 b = solve(ic=ic, events=ev, dense_output=True)
-                print("about to solve",flush=True) 
                 break
             except StepSizeError:
                 if i > 10:
@@ -199,9 +199,7 @@ def PPS_dat(params):
         if K == +1:
             k = k[k >= 1]
 
-        print("about to solve_oscode", flush=True) 
         pps = solve_oscode(background=b, k=k, w=w_value)
-        print("finished solve_oscode", flush=True) 
         np.savetxt(dat_name, np.array([pps.k_iMpc, pps.P_s_RST]).T)
 
 
@@ -257,44 +255,15 @@ def run_class(params):
 
     return cls
 
-# Runs the CLASS code with given parameters params in form [omega_b, omega_cdm, 10^4 * omega_ncdm, h, 10^9 * A_s, n_s, tau_reio]
-def run_class(params, Neff, N_ncdm, k0, delta_k):
-    
-    # create instance of the class " Class "
-    LambdaCDM = Class()
-    
-    # pass input parameters
-    LambdaCDM.set({'omega_b':params[0], 'omega_cdm':params[1], 'omega_ncdm':params[2]*1e-4, 'h':params[3], 'A_s':params[4]*1e-9, 'n_s':params[5], 'tau_reio':params[6], 'N_ur':Neff, 'N_ncdm':N_ncdm, 'k_min':k0, 'delta_k':delta_k})
-    LambdaCDM.set({'output':'tCl,pCl,lCl,mPk','lensing':'yes','P_k_max_1/Mpc':3.0, 'l_max_scalars':2508})
-    
-    # run class
-    LambdaCDM.compute()
-    
-    # get all C_l output
-    cls = LambdaCDM.lensed_cl(2508)
-    
-    LambdaCDM.struct_cleanup()
-    LambdaCDM.empty()
-    
-    return cls
-
 
 # Checks the input values are within the priors
 def check_prior(params):
 
-    # Original 
-    # prior = np.array([[2.5, 3.7],      #logA_SR
-    #                   [45, 70],        #N_star
-    #                   [-1, 5],         #log10f_i
-    #                   [-0.04, -0.0001], #omega_k
-    #                   [50, 75]])       #H0
-    
-    # smaller range
-    prior = np.array([[3.04, 3.05],      #logA_SR
-                      [55, 60],          #N_star
-                      [4.8, 4.85],        #log10f_i
-                      [-0.0055, -0.005],  #omega_k
-                      [61, 65]])         #H0
+    prior = np.array([[3.0, 3.1],      #logA_SR
+                      [35, 75],          #N_star
+                      [-1, 5],        #log10f_i
+                      [-0.02, -0.0001],  #omega_k
+                      [55, 75]])         #H0
 
     diff_below = params - prior[:, 0]
     diff_above = prior[:, 1] - params
@@ -424,14 +393,14 @@ nDims = 5
 nDerived = 0
 settings = PolyChordSettings(nDims, nDerived)
 settings.file_root = 'inflation'
-settings.nlive = 20
+settings.nlive = 224
 settings.do_clustering = True
 settings.read_resume = True
 
 #| Define loglikelihood
 def to_optimise(params):
     plik, lowl, lowE, lensing, chi_eff_sq = run_TT(params)
-    return -0.5*chi_eff_sq
+    return -chi_eff_sq
 
 
 def likelihood(theta): # theta=params
@@ -450,7 +419,7 @@ def likelihood(theta): # theta=params
 def prior(hypercube): # parameters = [logA_SR, N_star, log10f_i, omega_k, H0]
     """ Uniform prior from [min,max]^D. """
     # return [UniformPrior(2.5, 3.7)(hypercube[0]), UniformPrior(45, 70)(hypercube[1]), UniformPrior(-1, 5)(hypercube[2]), UniformPrior(-0.04, -0.0001)(hypercube[3]), UniformPrior(50, 75)(hypercube[4])]
-    return [UniformPrior(3.04, 3.05)(hypercube[0]), UniformPrior(55, 60)(hypercube[1]), UniformPrior(4.8, 4.85)(hypercube[2]), UniformPrior(-0.0055, -0.005)(hypercube[3]), UniformPrior(61, 65)(hypercube[4])]
+    return [UniformPrior(3.0, 3.1)(hypercube[0]), UniformPrior(35, 75)(hypercube[1]), UniformPrior(-1, 5)(hypercube[2]), UniformPrior(-0.02, -0.0001)(hypercube[3]), UniformPrior(55, 75)(hypercube[4])]
                       
 #| Optional dumper function giving run-time read access to
 #| the live points, dead points, weights and evidences
@@ -465,8 +434,9 @@ output = pypolychord.run_polychord(likelihood, nDims, nDerived, settings, prior,
 
 #| Create a paramnames file
 
-paramnames = [('p%i' % i, r'\theta_%i' % i) for i in range(nDims)]
-paramnames += [('r*', 'r')]
+parameters = ['logA_SR', 'N_star', 'log10f_i', 'omega_k', 'H0']
+param_latex = [r'$\ln(10^{10} A_\mathrm{SR})$', r'$N_\ast$', r'$\log_{10} f_\mathrm{i}$', r'$\Omega_{K,0} h^2$', r'$H_0$']
+paramnames = [(parameters[i], param_latex[i]) for i in range(nDims)]
 output.make_paramnames_files(paramnames)
 
 #| Make an anesthetic plot (could also use getdist)
@@ -474,7 +444,7 @@ try:
     from matplotlib import pyplot as plt
     from anesthetic import read_chains
     samples = read_chains(settings.base_dir + '/' + settings.file_root)
-    samples.plot_2d(['p0','p1','p2','p3','r'])
+    samples.plot_2d(['logA_SR', 'N_star', 'log10f_i', 'omega_k', 'H0'])
     plt.savefig('posterior.pdf')
 
 except ImportError:
