@@ -114,7 +114,8 @@ class PrimordialSolver(object):
             return 0.
 
 class IC_b_Solver(object):
-    def __init__(self, V, K, phi_i, N_i):
+    def __init__(self, n, V, K, phi_i, N_i):
+        self.n = n
         self.V = V
         self.K = K
         self.phi_i = phi_i
@@ -205,13 +206,17 @@ class IC_b_Solver(object):
         C = sol_C.root
         return C
 
-    def IC_SR(self, n):
+    def IC_SR(self):
         SR_start, SR_end, eta_SR_end = self.SR_t_eta()
         sol_inflating = self.PrimordialSolver.solve(self.N_i, self.phi_i, method='Radau', events=Inflating(self))
         SR_index = 0
         for i in range(len(sol_inflating.t)):
-            if sol_inflating.t[i] < n* (1./5.)*SR_start < sol_inflating.t[i+1]:
-                SR_index = i
+            if self.n == 0:
+                if sol_inflating.t[i] < 0.9*SR_start + 0.1*SR_end < sol_inflating.t[i+1]:
+                    SR_index = i
+            elif self.n == 1:
+                if sol_inflating.t[i] < 0.8*SR_start + 0.2*SR_end < sol_inflating.t[i+1]:
+                    SR_index = i
        
         t_SR = sol_inflating.t[SR_index]
         N_SR = sol_inflating.y[0][SR_index]
@@ -424,8 +429,10 @@ def create_figure(K):
     return fig, ax0, ax1, ax2, ax3, ax4
 
 class Solver_b(object):
-    def __init__(self, N_i, V, H0=64.03, Omega_m=0.3453, omegabh2=0.022509, omegach2=0.11839, tau=0.0515, Omega_K=-0.0092, logA=3.0336, ns=0.96535, z=1089.61): # ns=0.9699
+    def __init__(self, n, ax, N_i, V, Omega_K, H0=64.03, Omega_m=0.3453, omegabh2=0.022509, omegach2=0.11839, tau=0.0515, logA=3.0336, ns=0.96535, z=1089.61): # ns=0.9699
         # Initialise late-time parameters
+        self.n = n
+        self.ax = ax
         self.H0 = H0
         self.omegach2 = omegach2
         self.omegabh2 = omegabh2
@@ -462,7 +469,7 @@ class Solver_b(object):
 
     @property
     def IC_b_Solver(self):
-        return IC_b_Solver(self.V, self.K, self.phi_i, self.N_i)
+        return IC_b_Solver(self.n, self.V, self.K, self.phi_i, self.N_i)
     
     @property
     def K(self):
@@ -485,25 +492,46 @@ class Solver_b(object):
         # plt.plot(sol_inflating.t, sol_inflating.y[0], label='a_for')
         # plt.plot(sol_KD.t, sol_KD.y[0], label='a_back')
 
-        plt.plot(sol_inf_for.t, sol_inf_for.y[0], label='a_inf_for')
-        plt.plot(sol_inf_back.t, sol_inf_back.y[0], label='a_inf_back')
-        plt.plot(sol_inf_for.t, sol_inf_for.y[2], label='b_inf_for')
-        plt.plot(sol_inf_back.t, sol_inf_back.y[2], label='b_inf_back')
+        # plt.plot(sol_inf_for.t, sol_inf_for.y[0], label='a_inf_for')
+        self.ax.plot(sol_inf_back.t, sol_inf_back.y[0], label='$\log(a)$', color='b') #label='a_inf_back'
+        # plt.plot(sol_inf_for.t, sol_inf_for.y[2], label='b_inf_for')
+        self.ax.plot(sol_inf_back.t, sol_inf_back.y[2], label='$\log(b)$', color='orange') #label='b_inf_back'
         
         # plt.plot(sol_KD_for.t, sol_KD_for.y[0], label='a_KD_for')
         # plt.plot(sol_KD_back.t, sol_KD_back.y[0], label='a_KD_back')
         # plt.plot(sol_KD_for.t, sol_KD_for.y[2], label='b_KD_for')
         # plt.plot(sol_KD_back.t, sol_KD_back.y[2], label='b_KD_back')
-        plt.legend()
-        plt.xlim([-1, 3.5])
-        plt.ylim([-6, 3.5])
-        plt.show()
+        # plt.legend()
+        # plt.xlim([-1.2, 2])
+        # plt.ylim([-2, 2])
+        # plt.show()
+        self.ax.set_xlim([-1.2, 2])
+        self.ax.set_ylim([-2, 2])
+        self.ax.legend(fontsize=22, loc ="lower right")
+        
+        for tick in self.ax.xaxis.get_major_ticks():
+            tick.label.set_fontsize(20) 
+
+        for tick in self.ax.yaxis.get_major_ticks():
+            tick.label.set_fontsize(20) 
+            # specify integer or one of preset strings, e.g.
+            #tick.label.set_fontsize('y-small') 
 
         return 0
 
-# N_i_min, N_i_med, N_i_max= -1.5, -0.4676751301973933, 0.5646497396052134
-# universe = Solver_b(N_i_min, V)
-# universe.test_b_IC()
+fig, axs = plt.subplots(1,2, figsize=(16, 6), sharey=True)
+# fig.suptitle('Numerical solution of $\log(a)$ and $\log(b)$', fontsize=22)
+
+universes = [Solver_b(0, axs[0], 0.3, V, 0.0092), Solver_b(1, axs[1], 0.5, V, -0.0092)]
+for universe in universes:
+    universe.test_b_IC()
+
+axs[0].set_title('K=-1 (open universe)', fontsize=24)
+axs[0].set_xlabel('time', fontsize=22)
+axs[0].set_ylabel('$\log(a)$ and $\log(b)$', fontsize=22)
+axs[1].set_title('K=1 (closed universe)', fontsize=24)
+axs[1].set_xlabel('time', fontsize=22)
+plt.savefig('numerical_b_K1-1.png')
 
 class R_func(object):
     def __init__(self, V, cs=1):
@@ -777,11 +805,8 @@ import tqdm
 # labellist = ['0.565', '0.3', '0.0', '-0.468', '-0.8', '-1', '-1.2']
 # colorlist = ['red', 'sandybrown', 'gold', 'darkkhaki', 'chartreuse', 'deepskyblue', 'blue']
 
-N_i = 0.5
-universes = [Solver(0, N_i, V)]
-colorlist = ['darkblue']
-labellist = ['med']
 
+"""
 for figname in ['jan22-8am-CMB-diffNi-actual-b-will']:
 
     fig, ax = plt.subplots(1)
@@ -915,7 +940,7 @@ for figname in ['jan22-8am-CMB-diffNi-actual-b-will']:
     fig.set_size_inches(3.5,3.3)
     fig.tight_layout()
     fig.savefig(figname + '.pdf')
-
+"""
 
 
 """

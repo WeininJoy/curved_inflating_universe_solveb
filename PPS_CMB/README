@@ -10,10 +10,10 @@ Goal: generate PPS and CMB of the new model (with b).
    (2) set quantum IC by flat RSET
 3. PPS_weinin.py: generate PPS and CMB by (1) BG variables depends N_end,
    (2) apply actual numerical b solution to set quantum IC
-4. PPS&CMB_will_b.py: generate PPS and CMB by (1) BG variables depends on ns (rather than N_end or N_star),
+4. PPS_CMB_will_b.py: generate PPS and CMB by (1) BG variables depends on ns (rather than N_end or N_star),
    (2) apply actual numerical b solution to set quantum IC
    Based on PPS&CMB_willworks.py
-5. PPS&CMB_willworks.py: generate PPS and CMB by (1) BG variables depends on ns (rather than N_end or N_star),
+5. PPS_CMB_willworks.py: generate PPS and CMB by (1) BG variables depends on ns (rather than N_end or N_star),
    (2) apply Mary's quantum IC [2211.17248]
    Used to make the PPS & CMB plot in [2211.17248]. Based on willworks_origin.py
 5. willworks_origin.py: generate PPS&CMB based on Mary's paper [2211.17248]

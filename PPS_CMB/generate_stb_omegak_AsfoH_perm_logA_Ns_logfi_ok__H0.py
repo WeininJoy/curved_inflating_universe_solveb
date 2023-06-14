@@ -26,11 +26,14 @@ import matplotlib.pyplot as plt
 
 # N_star_list = np.linspace(50, 60, num=5)
 # w_value_list = np.linspace(-0.4, -0.99, num=5)
-w_value_list = np.linspace(-0.3, 0.99, num=5)
+# w_value_list = np.linspace(-0.3, 0.99, num=5)
 # logA_SR_list = np.linspace(2.5, 3.7, num=5)
 # H0_list = np.linspace(67, 74, num=5)
 # omega_k_list = np.linspace(-0.04, -0.001, num=5)
 # log10f_i_list = np.linspace(-1, 5, num=5)
+
+# w_value_list = [-0.33, 0.0, 0.33, 0.66, 0.99]
+w_value_list = np.linspace(-1./3., 0.99, num=5)
 
 for j in range(len(w_value_list)):
     try:
@@ -137,6 +140,7 @@ for j in range(len(w_value_list)):
             np.logspace(np.log10(5e-1), np.log10(5e0), 1 * 50 + 1)[1:],
             np.logspace(np.log10(5e0), np.log10(5e1), 1 * 10 + 1)[1:]
         ))
+       
         k = k_iMpc * b.a0_Mpc
         if K == +1:
             k = k[k >= 1]
@@ -164,11 +168,11 @@ for j in range(len(w_value_list)):
             if np.isfinite(pps.P_s_RST[i]) and np.isfinite(pps.P_t_RST[i]):
                 print("%.18e %.18e %.18e" % (k, pps.P_s_RST[i], pps.P_t_RST[i]))
         """
-        # plt.loglog(pps.k_iMpc, pps.P_s_RST, label='w='+str(w_value_list[j]))
-        # np.savetxt('./PPS_primpy/PPS_test_w='+str(j)+'.dat', np.array([pps.k_iMpc, pps.P_s_RST, pps.P_t_RST]).T)
+        plt.loglog(pps.k_iMpc, pps.P_s_RST, label='w='+str(w_value_list[j]))
+        np.savetxt('./PPS_b_difft/PPS_test_w='+str(w_value_list[j])+'.dat', np.array([pps.k_iMpc, pps.P_s_RST, pps.P_t_RST]).T)
 
 # plt.xlim([2.e-5, 5.])
 # plt.xlabel('k/Mpc^-1')
 # plt.ylabel('PPS')
-plt.legend()
-plt.show()
+# plt.legend()
+# plt.show()
