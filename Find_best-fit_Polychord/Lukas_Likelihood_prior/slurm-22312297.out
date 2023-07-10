@@ -1,0 +1,37 @@
+/rds/user/wnd22/hpc-work/env_/bin/python
+Changed directory to /home/wnd22/rds/hpc-work/Will_solve_b/Polychord_solveb/Lukas_Likelihood_prior.
+
+JobID: 22312297
+======
+Time: Thu Jun 15 16:22:15 BST 2023
+Running on master node: cpu-p-90
+Current directory: /home/wnd22/rds/hpc-work/Will_solve_b/Polychord_solveb/Lukas_Likelihood_prior
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "lzh_TW",
+	LC_ADDRESS = "lzh_TW",
+	LC_MONETARY = "lzh_TW",
+	LC_NUMERIC = "lzh_TW",
+	LC_TELEPHONE = "lzh_TW",
+	LC_IDENTIFICATION = "lzh_TW",
+	LC_MEASUREMENT = "lzh_TW",
+	LC_TIME = "lzh_TW",
+	LC_NAME = "lzh_TW",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+Nodes allocated:
+================
+cpu-p-90
+
+numtasks=1, numnodes=1, mpi_tasks_per_node=1 (OMP_NUM_THREADS=1)
+
+Executing command:
+==================
+python plot_anesthetic_2D_compare.py 
+
+/rds/user/wnd22/hpc-work/env_/lib/python3.8/site-packages/anesthetic/samples.py:1205: RuntimeWarning: NaN encountered in logL. If this is unexpected, you should investigate why your likelihood is throwing NaNs. Dropping these samples at prior level
+  warnings.warn("NaN encountered in logL. If this is unexpected, you"

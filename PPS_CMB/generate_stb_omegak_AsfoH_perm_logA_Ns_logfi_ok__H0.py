@@ -33,8 +33,10 @@ import matplotlib.pyplot as plt
 # log10f_i_list = np.linspace(-1, 5, num=5)
 
 # w_value_list = [-0.33, 0.0, 0.33, 0.66, 0.99]
-w_value_list = np.linspace(-1./3., 0.99, num=5)
-
+# w_value_list = np.linspace(-0.99, 0.99, num=2)
+# cm = 1./2.54  # centimeters in inches
+# plt.figure(figsize=(10*cm, 7.8*cm))
+w_value_list = [0.999]
 for j in range(len(w_value_list)):
     try:
         w_value = w_value_list[j]
@@ -136,17 +138,17 @@ for j in range(len(w_value_list)):
         # #########################################################################
         k_iMpc = np.concatenate((
             np.logspace(np.log10(5e-7), np.log10(5e-5), 2 * 100 + 1),
-            np.logspace(np.log10(5e-5), np.log10(5e-1), 4 * 200 + 1)[1:],
+            np.logspace(np.log10(5e-5), np.log10(5e-1), 3 * 200 + 1)[1:], # 4 * 200 + 1
             np.logspace(np.log10(5e-1), np.log10(5e0), 1 * 50 + 1)[1:],
-            np.logspace(np.log10(5e0), np.log10(5e1), 1 * 10 + 1)[1:]
+            # np.logspace(np.log10(5e0), np.log10(5e1), 1 * 10 + 1)[1:]
         ))
-       
+        
         k = k_iMpc * b.a0_Mpc
         if K == +1:
             k = k[k >= 1]
 
         pps = solve_oscode(background=b, k=k, w=w_value)
-        
+        # pps = solve_oscode(background=b, k=k)
 
 
         # 3. Limits for k and precision:
@@ -168,11 +170,13 @@ for j in range(len(w_value_list)):
             if np.isfinite(pps.P_s_RST[i]) and np.isfinite(pps.P_t_RST[i]):
                 print("%.18e %.18e %.18e" % (k, pps.P_s_RST[i], pps.P_t_RST[i]))
         """
-        plt.loglog(pps.k_iMpc, pps.P_s_RST, label='w='+str(w_value_list[j]))
-        np.savetxt('./PPS_b_difft/PPS_test_w='+str(w_value_list[j])+'.dat', np.array([pps.k_iMpc, pps.P_s_RST, pps.P_t_RST]).T)
+        w_label = round(w_value, 3)
+        np.savetxt('./PPS_diffw/PPS_w='+str(w_label)+'.dat', np.array([pps.k_iMpc, pps.P_s_RST, pps.P_t_RST]).T)
 
-# plt.xlim([2.e-5, 5.])
-# plt.xlabel('k/Mpc^-1')
-# plt.ylabel('PPS')
-# plt.legend()
-# plt.show()
+
+# plt.xlabel("time", fontsize=9)
+# plt.ylabel("$\log(a)$ and $\log(b)$")
+# plt.xticks(fontsize=7)
+# plt.yticks(fontsize=7)
+# plt.legend(fontsize=8, loc='lower left')
+# plt.savefig("log_b_diffw_KD.pdf", format="pdf", bbox_inches="tight")

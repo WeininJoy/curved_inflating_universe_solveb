@@ -77,6 +77,16 @@ class UntilNEvent(Event):
         """Root of `N - value`."""
         return self.equations.N(x, y) - self.value
 
+class TouchHorizonEvent(Event):
+    """Track Hubble Horizon out-off/enter. value = a0^-1*k^-1 (k has unit: Mpc^-1)"""
+
+    def __init__(self, equations, direction=0, terminal=False, value=0, **kwargs):
+        super(TouchHorizonEvent, self).__init__(equations, direction, terminal, value)
+        self.name = 'TouchHorizon_dir%d_term%d' % (self.direction, self.terminal)
+
+    def __call__(self, x, y):
+        """Root of ` value - 1/(aH)"""
+        return self.value - self.equations.Horizon(x, y) 
 
 class InflationEvent(Event):
     """Track inflation start/end."""

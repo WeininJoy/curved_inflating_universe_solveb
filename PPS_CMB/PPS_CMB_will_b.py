@@ -217,6 +217,7 @@ class IC_b_Solver(object):
             elif self.n == 1:
                 if sol_inflating.t[i] < 0.8*SR_start + 0.2*SR_end < sol_inflating.t[i+1]:
                     SR_index = i
+            else: print("n should be 0 or 1.")
        
         t_SR = sol_inflating.t[SR_index]
         N_SR = sol_inflating.y[0][SR_index]
@@ -300,7 +301,7 @@ class IC_b_Solver(object):
         return [A, B]
 
     def get_b_IC(self, n):
-        sol_inf = solve_ivp(self.f_b, [self.IC_SR(n)[0], 0.0], self.IC_SR(n)[1], method='Radau', d=-1)
+        sol_inf = solve_ivp(self.f_b, [self.IC_SR()[0], 0.0], self.IC_SR()[1], method='Radau', d=-1)
         return [sol_inf.y[2][-1], sol_inf.y[3][-1]]
 
 
@@ -507,31 +508,42 @@ class Solver_b(object):
         # plt.show()
         self.ax.set_xlim([-1.2, 2])
         self.ax.set_ylim([-2, 2])
-        self.ax.legend(fontsize=22, loc ="lower right")
+        self.ax.legend(fontsize=9, loc ="lower right")
         
         for tick in self.ax.xaxis.get_major_ticks():
-            tick.label.set_fontsize(20) 
+            tick.label.set_fontsize(7) 
 
         for tick in self.ax.yaxis.get_major_ticks():
-            tick.label.set_fontsize(20) 
+            tick.label.set_fontsize(7) 
             # specify integer or one of preset strings, e.g.
             #tick.label.set_fontsize('y-small') 
 
         return 0
 
-fig, axs = plt.subplots(1,2, figsize=(16, 6), sharey=True)
+
+############################################################
+# plot numerical evolution of variable b
+############################################################
+
+cm = 1./2.54  # centimeters in inches
+fig, axs = plt.subplots(1,2, sharey=True)
 # fig.suptitle('Numerical solution of $\log(a)$ and $\log(b)$', fontsize=22)
 
 universes = [Solver_b(0, axs[0], 0.3, V, 0.0092), Solver_b(1, axs[1], 0.5, V, -0.0092)]
 for universe in universes:
     universe.test_b_IC()
 
-axs[0].set_title('K=-1 (open universe)', fontsize=24)
-axs[0].set_xlabel('time', fontsize=22)
-axs[0].set_ylabel('$\log(a)$ and $\log(b)$', fontsize=22)
-axs[1].set_title('K=1 (closed universe)', fontsize=24)
-axs[1].set_xlabel('time', fontsize=22)
-plt.savefig('numerical_b_K1-1.png')
+axs[0].set_title('$K=-1$ (open universe)', fontsize=10)
+axs[0].set_xlabel('time', fontsize=9)
+axs[0].set_ylabel('$\log(a)$ and $\log(b)$', fontsize=9)
+axs[1].set_title('$K=1$ (closed universe)', fontsize=10)
+axs[1].set_xlabel('time', fontsize=9)
+fig.set_size_inches(16.6*cm, 7*cm)
+fig.tight_layout()
+fig.savefig("numerical_b_K1-1.pdf", format="pdf")
+
+
+
 
 class R_func(object):
     def __init__(self, V, cs=1):
@@ -742,14 +754,32 @@ class Solver(object):
         Omega_late_time = self.Omega_late_time(N_late_time)
         
         # plt.plot(self.pre_inflation()[0], self.pre_inflation()[1],label="{} primordial $\Omega_K$".format(labellist[self.n]),color=colorlist[self.n])
-        plt.plot(self.pre_inflation()[0], self.pre_inflation()[1],label="ns={}".format(self.ns),color=colorlist[self.n])
-        plt.plot(self.inflation()[0], self.inflation()[1], color=colorlist[self.n])
-        plt.plot(self.reheating()[0], self.reheating()[1], color=colorlist[self.n])
-        plt.plot(N_late_time, Omega_late_time, color=colorlist[self.n])
+        plt.plot(self.pre_inflation()[0], self.pre_inflation()[1], color=colorlist[0], label='Kinetic dominance')
+        plt.plot(self.inflation()[0], self.inflation()[1], color=colorlist[1], label='Inflation')
+        plt.plot(self.reheating()[0], self.reheating()[1], color=colorlist[2], label='Reheating')
+        plt.plot(N_late_time, Omega_late_time, color=colorlist[3], label='Late time evolution')
         return 0
         # return Omega_late_time[0] - self.reheating()[1][-1]
-    
 
+
+"""
+############################################################
+# plot evolution of Hubble Horizon
+############################################################
+
+cm = 1./2.54  # centimeters in inches
+plt.figure(figsize=(7.*cm, 5.*cm))
+colorlist = ['tab:green', 'tab:orange', 'tab:blue', 'tab:purple']
+N_i = 0.5
+universe = Solver( 0, N_i, V)
+universe.plot_aH()
+plt.xlabel('$N$', fontsize=9)
+plt.ylabel('$(aH)^{-1}$', fontsize=9)
+plt.xticks(fontsize=7)
+plt.yticks(fontsize=7)
+plt.legend(fontsize=8)
+plt.savefig("evol_horizon.pdf", format="pdf", bbox_inches="tight")
+"""
 
 def eta_frac(N_i):
     print('N_i='+str(N_i))

@@ -73,7 +73,7 @@ class IC_RST_b(object):
             equations = InflationEquations(K=self.K, potential=self.background.potential, track_eta=False, track_b=True)
             """get initial condition of Nb and dNbdt"""
             ic_SR = SlowRowIC(self.background, equations)
-            ev = [InflationEvent(equations, -1, terminal=True)]   # end at inflation start
+            ev = [InflationEvent(equations, -1, terminal=False)]   # end at inflation start
             self.backwards = solve(ic=ic_SR, events=ev)
             if self.backwards.t[-1] < self.background.t[0]* (1.+1.e-2): # make sure get R_IC at the start of inflation
                 self.Nb_i = self.backwards.Nb[-1]
@@ -107,8 +107,11 @@ class IC_RST_b(object):
 
 
     def test_b_IC(self):
-        plt.plot(self.forward.t, self.forward.Nb)
-        plt.plot(self.forward.t, self.forward.N)
+        w_label = round(self.w, 3)
+        plt.plot(self.forward.t, self.forward.Nb, '--',label = '$w=$'+ str(w_label))
+        if self.w == 0.99:
+            plt.plot(self.forward.t, self.forward.N, label = '$\log(a)$')
+        
 
         
 

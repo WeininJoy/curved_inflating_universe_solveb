@@ -60,6 +60,12 @@ class InflationEquationsT(InflationEquations):
         V = self.V(x, y)
         dphidt = self.dphidt(x, y)
         return (dphidt**2 / 2 + V) / 3 - self.K * np.exp(-2 * N)
+    
+    def Horizon(self, x, y):
+        """Compute the Hubble Horizon."""
+        H = self.H(x, y)
+        N = self.N(x, y)
+        return 1./(np.exp(N)*H)
 
     def w(self, x, y):
         """Compute the equation of state parameter."""
