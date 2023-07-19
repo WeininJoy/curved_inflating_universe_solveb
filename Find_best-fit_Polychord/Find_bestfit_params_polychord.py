@@ -61,21 +61,18 @@ dat_name = './PPS/PPS_w='+str(w_value)+'_rank='+str(rank)+'.dat' # rank of the M
 class PlanckLikelihood(object):
     """Baseline Planck Likelihood"""
     
-    def __init__(self):
-        self.plik = clik.clik(os.path.join(data, "hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik"))
+    def __init__(self): # don't consider lensing
+        self.plik = clik.clik(os.path.join(data, "hi_l/plik_lite/plik_lite_v22_TTTEEE.clik"))
         self.lowl = clik.clik(os.path.join(data, "low_l/commander/commander_dx12_v3_2_29.clik"))
         self.lowE = clik.clik(os.path.join(data, "low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik"))
-        self.lensing = clik.clik_lensing(os.path.join(data, "lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing"))
     
     def __call__(self, cls, nuis):
         lkl = []
-        for like in [self.plik, self.lowl, self.lowE, self.lensing]:
+        for like in [self.plik, self.lowl, self.lowE]:
             #        for like in [self.plik]:
             lmaxes = like.get_lmax()
             dat = []
             order = ['tt','ee','bb','te','tb','eb']
-            if like is self.lensing:
-                order = ['pp'] + order
             
             # print(order,len(lmaxes),len(order))
             for spec, lmax in zip(order, lmaxes):

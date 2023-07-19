@@ -4,8 +4,6 @@ from matplotlib import pyplot as plt
 
 #| Make an anesthetic plot (could also use getdist)
 try:
-    from matplotlib import pyplot as plt
-    from anesthetic import read_chains
 
     # set params and figure
     params = ['logA_SR', 'N_star', 'log10f_i', 'omega_k', 'H0']
